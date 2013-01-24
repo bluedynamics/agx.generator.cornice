@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_ELuoEGZAEeKWD5QSKmVm5w" name="profile">
+  <eAnnotations xmi:id="_84Q6IGZCEeKWD5QSKmVm5w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_84SIQGZCEeKWD5QSKmVm5w" name="profile" nsURI="http:///schemas/profile/_84N20GZCEeKWD5QSKmVm5w/0" nsPrefix="profile">
+      <eAnnotations xmi:id="_84Y18GZCEeKWD5QSKmVm5w" source="PapyrusVersion">
+        <details xmi:id="_84Y18WZCEeKWD5QSKmVm5w" key="Version" value="0.0.1"/>
+        <details xmi:id="_84Y18mZCEeKWD5QSKmVm5w" key="Comment" value="first shot"/>
+        <details xmi:id="_84Y182ZCEeKWD5QSKmVm5w" key="Copyright" value=""/>
+        <details xmi:id="_84Y19GZCEeKWD5QSKmVm5w" key="Date" value="2013-01-24"/>
+        <details xmi:id="_84Y19WZCEeKWD5QSKmVm5w" key="Author" value="christoph"/>
+      </eAnnotations>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Package" xmi:id="_0bVmkGZBEeKWD5QSKmVm5w" name="cornice"/>
+  <packagedElement xmi:type="uml:Profile" xmi:id="_9gracGZBEeKWD5QSKmVm5w" name="cornice" metaclassReference="_Lz0v8GZCEeKWD5QSKmVm5w _b1NI4GZCEeKWD5QSKmVm5w">
+    <eAnnotations xmi:id="_84XAwGZCEeKWD5QSKmVm5w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <contents xmi:type="ecore:EPackage" xmi:id="_84XAwWZCEeKWD5QSKmVm5w" name="cornice" nsURI="http://profile/schemas/cornice/_84VyoGZCEeKWD5QSKmVm5w/0" nsPrefix="cornice">
+        <eAnnotations xmi:id="_84b5QGZCEeKWD5QSKmVm5w" source="PapyrusVersion">
+          <details xmi:id="_84b5QWZCEeKWD5QSKmVm5w" key="Version" value="0.0.1"/>
+          <details xmi:id="_84b5QmZCEeKWD5QSKmVm5w" key="Comment" value="first shot"/>
+          <details xmi:id="_84b5Q2ZCEeKWD5QSKmVm5w" key="Copyright" value=""/>
+          <details xmi:id="_84b5RGZCEeKWD5QSKmVm5w" key="Date" value="2013-01-24"/>
+          <details xmi:id="_84b5RWZCEeKWD5QSKmVm5w" key="Author" value="christoph"/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_84XAwmZCEeKWD5QSKmVm5w" name="service">
+          <eAnnotations xmi:id="_84XAw2ZCEeKWD5QSKmVm5w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_AHGqIGZCEeKWD5QSKmVm5w"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_84XAxGZCEeKWD5QSKmVm5w" name="base_Class" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/3.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_84XAxmZCEeKWD5QSKmVm5w" name="get">
+          <eAnnotations xmi:id="_84XAx2ZCEeKWD5QSKmVm5w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_CLGiMGZCEeKWD5QSKmVm5w"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_84XAyGZCEeKWD5QSKmVm5w" name="base_Operation" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/3.0.0/UML#//Operation"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_84XAymZCEeKWD5QSKmVm5w" name="put">
+          <eAnnotations xmi:id="_84XAy2ZCEeKWD5QSKmVm5w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_DWohMGZCEeKWD5QSKmVm5w"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_84XAzGZCEeKWD5QSKmVm5w" name="base_Operation" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/3.0.0/UML#//Operation"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_84XAzmZCEeKWD5QSKmVm5w" name="post">
+          <eAnnotations xmi:id="_84XAz2ZCEeKWD5QSKmVm5w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Eev_0GZCEeKWD5QSKmVm5w"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_84XA0GZCEeKWD5QSKmVm5w" name="base_Operation" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/3.0.0/UML#//Operation"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_84XA0mZCEeKWD5QSKmVm5w" name="delete">
+          <eAnnotations xmi:id="_84XA02ZCEeKWD5QSKmVm5w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_FhJ4AGZCEeKWD5QSKmVm5w"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_84XA1GZCEeKWD5QSKmVm5w" name="base_Operation" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/3.0.0/UML#//Operation"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_Lz0v8GZCEeKWD5QSKmVm5w" alias="Class">
+      <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+    </elementImport>
+    <elementImport xmi:id="_b1NI4GZCEeKWD5QSKmVm5w" alias="Operation">
+      <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Operation"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_AHGqIGZCEeKWD5QSKmVm5w" name="service">
+      <ownedAttribute xmi:id="_kyX4MGZCEeKWD5QSKmVm5w" name="base_Class" association="_kyZGUGZCEeKWD5QSKmVm5w">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_CLGiMGZCEeKWD5QSKmVm5w" name="get">
+      <ownedAttribute xmi:id="_sVS3EGZCEeKWD5QSKmVm5w" name="base_Operation" association="_sVTeIGZCEeKWD5QSKmVm5w">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Operation"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_DWohMGZCEeKWD5QSKmVm5w" name="put">
+      <ownedAttribute xmi:id="_tX0EAGZCEeKWD5QSKmVm5w" name="base_Operation" association="_tX0EAWZCEeKWD5QSKmVm5w">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Operation"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_Eev_0GZCEeKWD5QSKmVm5w" name="post">
+      <ownedAttribute xmi:id="_unsXgGZCEeKWD5QSKmVm5w" name="base_Operation" association="_uns-kGZCEeKWD5QSKmVm5w">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Operation"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_FhJ4AGZCEeKWD5QSKmVm5w" name="delete">
+      <ownedAttribute xmi:id="_viLp0GZCEeKWD5QSKmVm5w" name="base_Operation" association="_viMQ4GZCEeKWD5QSKmVm5w">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Operation"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_SdSXQGZCEeKWD5QSKmVm5w" name="Operation"/>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_kyZGUGZCEeKWD5QSKmVm5w" name="E_service_Class1" memberEnd="_kyZGUWZCEeKWD5QSKmVm5w _kyX4MGZCEeKWD5QSKmVm5w">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_kyZGUWZCEeKWD5QSKmVm5w" name="extension_service" type="_AHGqIGZCEeKWD5QSKmVm5w" aggregation="composite" association="_kyZGUGZCEeKWD5QSKmVm5w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_sVTeIGZCEeKWD5QSKmVm5w" name="E_get_Operation1" memberEnd="_sVTeIWZCEeKWD5QSKmVm5w _sVS3EGZCEeKWD5QSKmVm5w">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_sVTeIWZCEeKWD5QSKmVm5w" name="extension_get" type="_CLGiMGZCEeKWD5QSKmVm5w" aggregation="composite" association="_sVTeIGZCEeKWD5QSKmVm5w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_tX0EAWZCEeKWD5QSKmVm5w" name="E_put_Operation1" memberEnd="_tX0EAmZCEeKWD5QSKmVm5w _tX0EAGZCEeKWD5QSKmVm5w">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_tX0EAmZCEeKWD5QSKmVm5w" name="extension_put" type="_DWohMGZCEeKWD5QSKmVm5w" aggregation="composite" association="_tX0EAWZCEeKWD5QSKmVm5w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_uns-kGZCEeKWD5QSKmVm5w" name="E_post_Operation1" memberEnd="_uns-kWZCEeKWD5QSKmVm5w _unsXgGZCEeKWD5QSKmVm5w">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_uns-kWZCEeKWD5QSKmVm5w" name="extension_post" type="_Eev_0GZCEeKWD5QSKmVm5w" aggregation="composite" association="_uns-kGZCEeKWD5QSKmVm5w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_viMQ4GZCEeKWD5QSKmVm5w" name="E_delete_Operation1" memberEnd="_viMQ4WZCEeKWD5QSKmVm5w _viLp0GZCEeKWD5QSKmVm5w">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_viMQ4WZCEeKWD5QSKmVm5w" name="extension_delete" type="_FhJ4AGZCEeKWD5QSKmVm5w" aggregation="composite" association="_viMQ4GZCEeKWD5QSKmVm5w"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Profile>
