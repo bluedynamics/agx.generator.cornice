@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_UkMusGZpEeKWD5QSKmVm5w" name="Model">
+  <packageImport xmi:id="_UkMusWZpEeKWD5QSKmVm5w">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_YsnVkGZpEeKWD5QSKmVm5w" name="agx.test.cornice">
+    <packagedElement xmi:type="uml:Class" xmi:id="_yL6vkGZrEeKWD5QSKmVm5w" name="MyRestService">
+      <ownedAttribute xmi:id="__qi34GZrEeKWD5QSKmVm5w" name="name">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_BtcjwGZsEeKWD5QSKmVm5w" name="path">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_UfrTsGZsEeKWD5QSKmVm5w" name="do_something"/>
+      <ownedOperation xmi:id="_g98yQGZsEeKWD5QSKmVm5w" name="my_validator"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
