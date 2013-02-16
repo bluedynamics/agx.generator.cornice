@@ -1,5 +1,0 @@
-#---AGX Properties---
-#Sat Feb 16 14:30:08 CET 2013
-profiles=pyegg
-generator=/home/rnix/workspace/agx.dev/bin/agx
-target=/home/rnix/workspace/agx.dev/devsrc/agx.generator.cornice
