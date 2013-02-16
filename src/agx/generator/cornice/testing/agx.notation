@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_UkN80GZpEeKWD5QSKmVm5w" type="PapyrusUMLClassDiagram" name="TestServiceDiagram" measurementUnit="Pixel">
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_UkN80GZpEeKWD5QSKmVm5w" type="PapyrusUMLClassDiagram" name="TestServiceDiagram" measurementUnit="Pixel">
   <children xmi:type="notation:Shape" xmi:id="_YsrnAGZpEeKWD5QSKmVm5w" type="2007" fontName="Ubuntu" fontHeight="11" lineColor="0">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Yss1IGZpEeKWD5QSKmVm5w" source="ShadowFigure">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Yss1IWZpEeKWD5QSKmVm5w" key="ShadowFigure_Value" value="false"/>
@@ -11,11 +11,11 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YstcMWZpEeKWD5QSKmVm5w" key="QualifiedNameDepth" value="1000"/>
     </eAnnotations>
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_iTPaIGaAEeKWD5QSKmVm5w" source="Stereotype_Annotation">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_iTPaIWaAEeKWD5QSKmVm5w" key="StereotypeWithQualifiedNameList" value=""/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_iTQBMGaAEeKWD5QSKmVm5w" key="StereotypeList" value="pyegg::pyegg"/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_iTQBMWaAEeKWD5QSKmVm5w" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_iTQBMmaAEeKWD5QSKmVm5w" key="PropStereoDisplay" value=""/>
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_iTQBM2aAEeKWD5QSKmVm5w" key="StereotypePropertyLocation" value="Compartment"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Pa8r8Hg7EeKV8Jpnr6I4Nw" key="StereotypeWithQualifiedNameList" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Pa8r8Xg7EeKV8Jpnr6I4Nw" key="StereotypeList" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Pa8r8ng7EeKV8Jpnr6I4Nw" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Pa8r83g7EeKV8Jpnr6I4Nw" key="PropStereoDisplay" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Pa8r9Hg7EeKV8Jpnr6I4Nw" key="StereotypePropertyLocation" value="Compartment"/>
     </eAnnotations>
     <children xmi:type="notation:DecorationNode" xmi:id="_YstcMmZpEeKWD5QSKmVm5w" type="5026">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1GnPAGZ_EeKWD5QSKmVm5w" source="Stereotype_Annotation">
@@ -48,22 +48,22 @@
         <children xmi:type="notation:BasicCompartment" xmi:id="_yL_oEmZrEeKWD5QSKmVm5w" type="7011">
           <children xmi:type="notation:Shape" xmi:id="__qmiQGZrEeKWD5QSKmVm5w" type="3012" fontName="Ubuntu" fontHeight="11" lineColor="0">
             <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jMVu4GaMEeKWD5QSKmVm5w" source="Stereotype_Annotation">
-              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jMVu4WaMEeKWD5QSKmVm5w" key="StereotypeWithQualifiedNameList" value=""/>
-              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jMVu4maMEeKWD5QSKmVm5w" key="StereotypeList" value="pyegg::expression"/>
-              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jMVu42aMEeKWD5QSKmVm5w" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
-              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jMWV8GaMEeKWD5QSKmVm5w" key="PropStereoDisplay" value=""/>
-              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jMWV8WaMEeKWD5QSKmVm5w" key="StereotypePropertyLocation" value="Compartment"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Pa_vQHg7EeKV8Jpnr6I4Nw" key="StereotypeWithQualifiedNameList" value=""/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Pa_vQXg7EeKV8Jpnr6I4Nw" key="StereotypeList" value=""/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Pa_vQng7EeKV8Jpnr6I4Nw" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Pa_vQ3g7EeKV8Jpnr6I4Nw" key="PropStereoDisplay" value=""/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Pa_vRHg7EeKV8Jpnr6I4Nw" key="StereotypePropertyLocation" value="Compartment"/>
             </eAnnotations>
             <element xmi:type="uml:Property" href="agx.uml#__qi34GZrEeKWD5QSKmVm5w"/>
             <layoutConstraint xmi:type="notation:Location" xmi:id="__qmiQWZrEeKWD5QSKmVm5w"/>
           </children>
           <children xmi:type="notation:Shape" xmi:id="_BtgOIGZsEeKWD5QSKmVm5w" type="3012" fontName="Ubuntu" fontHeight="11" lineColor="0">
             <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vz2pAGaMEeKWD5QSKmVm5w" source="Stereotype_Annotation">
-              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vz3QEGaMEeKWD5QSKmVm5w" key="StereotypeWithQualifiedNameList" value=""/>
-              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vz3QEWaMEeKWD5QSKmVm5w" key="StereotypeList" value="pyegg::expression"/>
-              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vz3QEmaMEeKWD5QSKmVm5w" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
-              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vz3QE2aMEeKWD5QSKmVm5w" key="PropStereoDisplay" value=""/>
-              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vz3QFGaMEeKWD5QSKmVm5w" key="StereotypePropertyLocation" value="Compartment"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PbBkcHg7EeKV8Jpnr6I4Nw" key="StereotypeWithQualifiedNameList" value=""/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PbBkcXg7EeKV8Jpnr6I4Nw" key="StereotypeList" value=""/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PbBkcng7EeKV8Jpnr6I4Nw" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PbBkc3g7EeKV8Jpnr6I4Nw" key="PropStereoDisplay" value=""/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PbBkdHg7EeKV8Jpnr6I4Nw" key="StereotypePropertyLocation" value="Compartment"/>
             </eAnnotations>
             <element xmi:type="uml:Property" href="agx.uml#_BtcjwGZsEeKWD5QSKmVm5w"/>
             <layoutConstraint xmi:type="notation:Location" xmi:id="_BtgOIWZsEeKWD5QSKmVm5w"/>

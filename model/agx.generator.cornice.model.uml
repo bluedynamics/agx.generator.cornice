@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:pyegg="http:///schemas/pyegg/_qPw84FydEeKx8cgmcB0BHg/26" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xsi:schemaLocation="http:///schemas/pyegg/_qPw84FydEeKx8cgmcB0BHg/26 uml_profiles/pyegg.profile.uml#_qPw84VydEeKx8cgmcB0BHg">
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:pyegg="http:///schemas/pyegg/_qPw84FydEeKx8cgmcB0BHg/26" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/pyegg/_qPw84FydEeKx8cgmcB0BHg/26 uml_profiles/pyegg.profile.uml#_qPw84VydEeKx8cgmcB0BHg">
   <uml:Model xmi:id="_45-fcGYdEeKWD5QSKmVm5w" name="model">
     <packagedElement xmi:type="uml:Package" xmi:id="_G526sGYeEeKWD5QSKmVm5w" name="agx.generator.cornice">
       <profileApplication xmi:id="_lWmJ8GYeEeKWD5QSKmVm5w">

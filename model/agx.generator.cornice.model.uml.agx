@@ -1,5 +1,5 @@
 #---AGX Properties---
-#Thu Jan 24 22:04:09 CET 2013
+#Sat Feb 16 14:30:08 CET 2013
 profiles=pyegg
-generator=/home/christoph/Code/agx.dev/bin/agx
-target=/home/christoph/workspace_indigo/agx.generator.cornice/model
+generator=/home/rnix/workspace/agx.dev/bin/agx
+target=/home/rnix/workspace/agx.dev/devsrc/agx.generator.cornice
