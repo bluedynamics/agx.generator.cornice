@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cornice="http://profile/schemas/cornice/_84VyoGZCEeKWD5QSKmVm5w/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:pyegg="http:///schemas/pyegg/_qPw84FydEeKx8cgmcB0BHg/26" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http://profile/schemas/cornice/_84VyoGZCEeKWD5QSKmVm5w/0 ../profiles/cornice.profile.uml#_84XAwWZCEeKWD5QSKmVm5w http:///schemas/pyegg/_qPw84FydEeKx8cgmcB0BHg/26 ../profiles/uml_profiles/pyegg.profile.uml#_qPw84VydEeKx8cgmcB0BHg">
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cornice="http://profile/schemas/cornice/_ajsiAHg7EeKV8Jpnr6I4Nw/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:pyegg="http:///schemas/pyegg/_qPw84FydEeKx8cgmcB0BHg/26" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http://profile/schemas/cornice/_ajsiAHg7EeKV8Jpnr6I4Nw/1 ../profiles/cornice.profile.uml#_ajtJEHg7EeKV8Jpnr6I4Nw http:///schemas/pyegg/_qPw84FydEeKx8cgmcB0BHg/26 ../profiles/uml_profiles/pyegg.profile.uml#_qPw84VydEeKx8cgmcB0BHg">
   <uml:Model xmi:id="_UkMusGZpEeKWD5QSKmVm5w" name="Model">
     <packageImport xmi:id="_UkMusWZpEeKWD5QSKmVm5w">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -24,13 +24,13 @@
       </profileApplication>
       <profileApplication xmi:id="_B17aQGaAEeKWD5QSKmVm5w">
         <eAnnotations xmi:id="_B3SFIGaAEeKWD5QSKmVm5w" source="http://www.eclipse.org/uml2/2.0.0/UML">
-          <references xmi:type="ecore:EPackage" href="../profiles/cornice.profile.uml#_84SIQGZCEeKWD5QSKmVm5w"/>
+          <references xmi:type="ecore:EPackage" href="../profiles/cornice.profile.uml#_ajqs0Hg7EeKV8Jpnr6I4Nw"/>
         </eAnnotations>
         <appliedProfile href="../profiles/cornice.profile.uml#_ELuoEGZAEeKWD5QSKmVm5w"/>
       </profileApplication>
       <profileApplication xmi:id="_B3SFIWaAEeKWD5QSKmVm5w">
         <eAnnotations xmi:id="_B4TY0GaAEeKWD5QSKmVm5w" source="http://www.eclipse.org/uml2/2.0.0/UML">
-          <references xmi:type="ecore:EPackage" href="../profiles/cornice.profile.uml#_84XAwWZCEeKWD5QSKmVm5w"/>
+          <references xmi:type="ecore:EPackage" href="../profiles/cornice.profile.uml#_ajtJEHg7EeKV8Jpnr6I4Nw"/>
         </eAnnotations>
         <appliedProfile href="../profiles/cornice.profile.uml#_9gracGZBEeKWD5QSKmVm5w"/>
       </profileApplication>
