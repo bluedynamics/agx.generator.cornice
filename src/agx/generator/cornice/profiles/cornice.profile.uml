@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Profile xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_ELuoEGZAEeKWD5QSKmVm5w" name="profile">
+<uml:Profile xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_ELuoEGZAEeKWD5QSKmVm5w" name="profile">
   <eAnnotations xmi:id="_84Q6IGZCEeKWD5QSKmVm5w" source="http://www.eclipse.org/uml2/2.0.0/UML">
     <contents xmi:type="ecore:EPackage" xmi:id="_ajqs0Hg7EeKV8Jpnr6I4Nw" name="profile" nsURI="http:///schemas/profile/_ajqFwHg7EeKV8Jpnr6I4Nw/1" nsPrefix="profile">
       <eAnnotations xmi:id="_ajqs0Xg7EeKV8Jpnr6I4Nw" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_9gracGZBEeKWD5QSKmVm5w"/>
@@ -115,6 +115,20 @@
     <packagedElement xmi:type="uml:Stereotype" xmi:id="_AHGqIGZCEeKWD5QSKmVm5w" name="service">
       <ownedAttribute xmi:id="_kyX4MGZCEeKWD5QSKmVm5w" name="base_Class" association="_kyZGUGZCEeKWD5QSKmVm5w">
         <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_OABRUHiDEeKKKeBAcl9sxA" name="name" visibility="public">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_RtV3oHiDEeKKKeBAcl9sxA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RtY68HiDEeKKKeBAcl9sxA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_RtfooHiDEeKKKeBAcl9sxA">
+          <value xsi:nil="true"/>
+        </defaultValue>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_d32FoHiDEeKKKeBAcl9sxA" name="path" visibility="public">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fcr8gHiDEeKKKeBAcl9sxA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fctKoHiDEeKKKeBAcl9sxA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fcw1AHiDEeKKKeBAcl9sxA">
+          <value xsi:nil="true"/>
+        </defaultValue>
       </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:Stereotype" xmi:id="_CLGiMGZCEeKWD5QSKmVm5w" name="get">
