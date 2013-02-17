@@ -504,7 +504,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b5ks4RRDEeKcC97Hb5tvFQ"/>
         </children>
         <element xmi:type="uml:Class" href="agx.generator.cornice.uml#_b5bi4BRDEeKcC97Hb5tvFQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b5kFwRRDEeKcC97Hb5tvFQ" x="820" y="14" width="131" height="31"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b5kFwRRDEeKcC97Hb5tvFQ" x="830" y="5" width="131" height="31"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_W02ksA5vEeKgj7WFwZrcAg" type="3010" fontName="Ubuntu" fillColor="10265827" lineColor="0">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_W02ksg5vEeKgj7WFwZrcAg" source="ShadowFigure">

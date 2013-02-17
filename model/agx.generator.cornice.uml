@@ -67,7 +67,7 @@
   <pyegg:pymodule xmi:id="_gqVdIAsvEeKbFrhzZvXz8w" base_Package="_Srs_EAsvEeKbFrhzZvXz8w"/>
   <generator:generator xmi:id="_dsJMoA5vEeKgj7WFwZrcAg" base_Class="_W0v3AA5vEeKgj7WFwZrcAg"/>
   <generator:simple_scope xmi:id="_WtCWgBRDEeKcC97Hb5tvFQ" base_Class="_Ic1AQBRDEeKcC97Hb5tvFQ" scopename="pyclass"/>
-  <generator:profile xmi:id="_gQ9j0BRDEeKcC97Hb5tvFQ" base_Class="_b5bi4BRDEeKcC97Hb5tvFQ" profile_name="demo"/>
+  <generator:profile xmi:id="_gQ9j0BRDEeKcC97Hb5tvFQ" base_Class="_b5bi4BRDEeKcC97Hb5tvFQ" profile_name="cornice"/>
   <generator:generator xmi:id="_cS5WUBREEeKcC97Hb5tvFQ" base_Class="_Us1j4BREEeKcC97Hb5tvFQ"/>
   <pyegg:autoimport xmi:id="_5BlxkBRTEeKcC97Hb5tvFQ" base_Package="_XgZkgAssEeKGfoivsLRX3g"/>
   <pyegg:autoimport xmi:id="_8MRk4BRTEeKcC97Hb5tvFQ" base_Package="_Srs_EAsvEeKbFrhzZvXz8w"/>
