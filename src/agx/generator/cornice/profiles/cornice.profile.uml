@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Profile xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_ELuoEGZAEeKWD5QSKmVm5w" name="profile">
   <eAnnotations xmi:id="_84Q6IGZCEeKWD5QSKmVm5w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_bL7fUHqvEeKPh5LRZahQwQ" name="profile" nsURI="http:///schemas/profile/_bL4cAHqvEeKPh5LRZahQwQ/2" nsPrefix="profile">
+      <eAnnotations xmi:id="_bL7fUXqvEeKPh5LRZahQwQ" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_9gracGZBEeKWD5QSKmVm5w"/>
+      <eAnnotations xmi:id="_bMI6sHqvEeKPh5LRZahQwQ" source="PapyrusVersion">
+        <details xmi:id="_bMJhwHqvEeKPh5LRZahQwQ" key="Version" value="0.0.3"/>
+        <details xmi:id="_bMJhwXqvEeKPh5LRZahQwQ" key="Comment" value=""/>
+        <details xmi:id="_bMJhwnqvEeKPh5LRZahQwQ" key="Copyright" value=""/>
+        <details xmi:id="_bMJhw3qvEeKPh5LRZahQwQ" key="Date" value="2013-02-19"/>
+        <details xmi:id="_bMJhxHqvEeKPh5LRZahQwQ" key="Author" value=""/>
+      </eAnnotations>
+      <eSubpackages xmi:id="_bL7fUnqvEeKPh5LRZahQwQ" name="cornice" nsURI="http:///profile/cornice.ecore" nsPrefix="profile.cornice">
+        <eAnnotations xmi:id="_bL7fU3qvEeKPh5LRZahQwQ" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_0bVmkGZBEeKWD5QSKmVm5w"/>
+      </eSubpackages>
+    </contents>
     <contents xmi:type="ecore:EPackage" xmi:id="_ajqs0Hg7EeKV8Jpnr6I4Nw" name="profile" nsURI="http:///schemas/profile/_ajqFwHg7EeKV8Jpnr6I4Nw/1" nsPrefix="profile">
       <eAnnotations xmi:id="_ajqs0Xg7EeKV8Jpnr6I4Nw" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_9gracGZBEeKWD5QSKmVm5w"/>
       <eAnnotations xmi:id="_aju-QHg7EeKV8Jpnr6I4Nw" source="PapyrusVersion">
@@ -27,6 +40,43 @@
   <packagedElement xmi:type="uml:Package" xmi:id="_0bVmkGZBEeKWD5QSKmVm5w" name="cornice"/>
   <packagedElement xmi:type="uml:Profile" xmi:id="_9gracGZBEeKWD5QSKmVm5w" name="cornice" metaclassReference="_Lz0v8GZCEeKWD5QSKmVm5w _b1NI4GZCEeKWD5QSKmVm5w">
     <eAnnotations xmi:id="_84XAwGZCEeKWD5QSKmVm5w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <contents xmi:type="ecore:EPackage" xmi:id="_bMFQUHqvEeKPh5LRZahQwQ" name="cornice" nsURI="http://profile/schemas/cornice/_bMBl8HqvEeKPh5LRZahQwQ/2" nsPrefix="cornice">
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_bMFQUXqvEeKPh5LRZahQwQ" name="service">
+          <eAnnotations xmi:id="_bMFQUnqvEeKPh5LRZahQwQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_AHGqIGZCEeKWD5QSKmVm5w"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_bMFQU3qvEeKPh5LRZahQwQ" name="base_Class" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_bMF3YXqvEeKPh5LRZahQwQ" name="name" ordered="false" lowerBound="1"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_bMF3YnqvEeKPh5LRZahQwQ" name="path" ordered="false" lowerBound="1"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_bMF3Y3qvEeKPh5LRZahQwQ" name="get">
+          <eAnnotations xmi:id="_bMF3ZHqvEeKPh5LRZahQwQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_CLGiMGZCEeKWD5QSKmVm5w"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_bMF3ZXqvEeKPh5LRZahQwQ" name="base_Operation" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Operation"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_bMF3Z3qvEeKPh5LRZahQwQ" name="put">
+          <eAnnotations xmi:id="_bMF3aHqvEeKPh5LRZahQwQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_DWohMGZCEeKWD5QSKmVm5w"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_bMF3aXqvEeKPh5LRZahQwQ" name="base_Operation" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Operation"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_bMF3a3qvEeKPh5LRZahQwQ" name="post">
+          <eAnnotations xmi:id="_bMF3bHqvEeKPh5LRZahQwQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Eev_0GZCEeKWD5QSKmVm5w"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_bMF3bXqvEeKPh5LRZahQwQ" name="base_Operation" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Operation"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_bMF3b3qvEeKPh5LRZahQwQ" name="delete">
+          <eAnnotations xmi:id="_bMF3cHqvEeKPh5LRZahQwQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_FhJ4AGZCEeKWD5QSKmVm5w"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_bMF3cXqvEeKPh5LRZahQwQ" name="base_Operation" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/4.0.0/UML#//Operation"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_bMF3c3qvEeKPh5LRZahQwQ" name="Operation">
+          <eAnnotations xmi:id="_bMF3dHqvEeKPh5LRZahQwQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_SdSXQGZCEeKWD5QSKmVm5w"/>
+        </eClassifiers>
+      </contents>
       <contents xmi:type="ecore:EPackage" xmi:id="_ajtJEHg7EeKV8Jpnr6I4Nw" name="cornice" nsURI="http://profile/schemas/cornice/_ajsiAHg7EeKV8Jpnr6I4Nw/1" nsPrefix="cornice">
         <eAnnotations xmi:id="_aj9nwHg7EeKV8Jpnr6I4Nw" source="PapyrusVersion">
           <details xmi:id="_aj9nwXg7EeKV8Jpnr6I4Nw" key="Version" value="0.0.2"/>
