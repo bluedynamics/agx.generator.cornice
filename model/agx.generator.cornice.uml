@@ -39,6 +39,9 @@ Connect (with a dependency) to
         <packagedElement xmi:type="uml:Class" xmi:id="_X0I1UAsrEeKGfoivsLRX3g" clientDependency="_5psagAsrEeKGfoivsLRX3g _k5_vABREEeKcC97Hb5tvFQ" name="myhandler1"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_ahVHgBRDEeKcC97Hb5tvFQ" name="" client="_HAh4wAssEeKGfoivsLRX3g" supplier="_Ic1AQBRDEeKcC97Hb5tvFQ"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_k5_vABREEeKcC97Hb5tvFQ" name="" client="_X0I1UAsrEeKGfoivsLRX3g" supplier="_QSwXYA50EeKgj7WFwZrcAg"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jj4VsHxEEeKxnpwB-_Mwzg" clientDependency="_fpCl4HxGEeKxnpwB-_Mwzg _jVMukHxGEeKxnpwB-_Mwzg" name="cornicehandler"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_fpCl4HxGEeKxnpwB-_Mwzg" name="Dependency1" client="_jj4VsHxEEeKxnpwB-_Mwzg" supplier="_o-jOoHxEEeKxnpwB-_Mwzg"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_jVMukHxGEeKxnpwB-_Mwzg" name="Dependency2" client="_jj4VsHxEEeKxnpwB-_Mwzg" supplier="_EGx54AsrEeKGfoivsLRX3g"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_Srs_EAsvEeKbFrhzZvXz8w" name="scope">
         <ownedComment xmi:id="_1JkT8HrZEeK-RajENgwa_Q">
@@ -49,12 +52,13 @@ Replace this comment with a Class for the custom scope.</body>
         <packagedElement xmi:type="uml:Class" xmi:id="_QSwXYA50EeKgj7WFwZrcAg" name="PackagesAndEggsScope"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_bZmI8A50EeKgj7WFwZrcAg" name="ClassesAndPackagesScope"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_Ic1AQBRDEeKcC97Hb5tvFQ" name="pyclass"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_o-jOoHxEEeKxnpwB-_Mwzg" name="cornicescope"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_kzJEgA5vEeKgj7WFwZrcAg" name="" client="_W0v3AA5vEeKgj7WFwZrcAg" supplier="_WqdF4AsqEeKGfoivsLRX3g"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_W0v3AA5vEeKgj7WFwZrcAg" clientDependency="_kzJEgA5vEeKgj7WFwZrcAg" name="mygenerator"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_Us1j4BREEeKcC97Hb5tvFQ" clientDependency="_ehfU0BREEeKcC97Hb5tvFQ" name="someumlgenerator"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_ehfU0BREEeKcC97Hb5tvFQ" name="" client="_Us1j4BREEeKcC97Hb5tvFQ" supplier="_ZmRTkAsmEeKGfoivsLRX3g"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_b5bi4BRDEeKcC97Hb5tvFQ" name="MyProfile"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_b5bi4BRDEeKcC97Hb5tvFQ" name="Cornice"/>
     </packagedElement>
     <profileApplication xmi:id="_zZ1OMFyQEeG1mLF7jMwarw">
       <eAnnotations xmi:id="_zaNBoFyQEeG1mLF7jMwarw" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -106,4 +110,6 @@ Replace this comment with a Class for the custom scope.</body>
     <interfaces>IPackage</interfaces>
   </generator:class_scope>
   <generator:profile xmi:id="_qpsl4HtUEeKWyvM5fHmq3A" base_Class="_b5bi4BRDEeKcC97Hb5tvFQ"/>
+  <generator:class_scope xmi:id="_vRdXIHxEEeKxnpwB-_Mwzg" base_Class="_o-jOoHxEEeKxnpwB-_Mwzg"/>
+  <generator:handler xmi:id="_VjOMcHxGEeKxnpwB-_Mwzg" base_Class="_jj4VsHxEEeKxnpwB-_Mwzg"/>
 </xmi:XMI>
