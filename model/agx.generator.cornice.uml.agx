@@ -1,4 +1,5 @@
 #---AGX Properties---
-#Wed Feb 20 15:45:29 CET 2013
+#Thu Feb 21 19:42:41 CET 2013
 profiles=pyegg;zca;generator
-target=.
+generator=/opt/agx/agx.dev/bin/agx
+target=..

@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:generator="http:///schemas/generator/_1Yi2wHtrEeKfMvxpliE4xA/48" xmlns:pyegg="http:///schemas/pyegg/_TlCboHtNEeKfMvxpliE4xA/27" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/generator/_1Yi2wHtrEeKfMvxpliE4xA/48 uml_profiles/generator.profile.uml#_1Yi2wXtrEeKfMvxpliE4xA http:///schemas/pyegg/_TlCboHtNEeKfMvxpliE4xA/27 uml_profiles/pyegg.profile.uml#_TlE34HtNEeKfMvxpliE4xA">
   <uml:Model xmi:id="_rxHwYFyQEeG1mLF7jMwarw" name="model">
-    <packagedElement xmi:type="uml:Package" xmi:id="_0vR-MFyQEeG1mLF7jMwarw" name="agx.generator.example">
+    <packagedElement xmi:type="uml:Package" xmi:id="_0vR-MFyQEeG1mLF7jMwarw" name="agx.generator.cornice">
       <ownedComment xmi:id="_K2ZpQHrZEeK-RajENgwa_Q">
         <body>Step 1
 =====
 - change &quot;MyProfile&quot; to your profile name (&quot;Foo&quot;) and 
 - (optionally) edit the tagged value &quot;name&quot; (&quot;foo&quot; as in &quot;foo.profile.uml&quot;)
-Class name is the default for &quot;name&quot;, but can be overriden.</body>
+Class name is the default for &quot;name&quot;, but can be overriden.
+
+You also need to change the name of the containing package!</body>
       </ownedComment>
       <packagedElement xmi:type="uml:Class" xmi:id="_RwyXUAshEeKGfoivsLRX3g" clientDependency="_ksdoEAsqEeKGfoivsLRX3g" name="uml2fs"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_ZmRTkAsmEeKGfoivsLRX3g" name="xmi2uml"/>
@@ -58,17 +60,17 @@ Replace this comment with a Class for the custom scope.</body>
       <packagedElement xmi:type="uml:Class" xmi:id="_W0v3AA5vEeKgj7WFwZrcAg" clientDependency="_kzJEgA5vEeKgj7WFwZrcAg" name="mygenerator"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_Us1j4BREEeKcC97Hb5tvFQ" clientDependency="_ehfU0BREEeKcC97Hb5tvFQ" name="someumlgenerator"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_ehfU0BREEeKcC97Hb5tvFQ" name="" client="_Us1j4BREEeKcC97Hb5tvFQ" supplier="_ZmRTkAsmEeKGfoivsLRX3g"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_b5bi4BRDEeKcC97Hb5tvFQ" name="Cornice"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_b5bi4BRDEeKcC97Hb5tvFQ" name="cornice"/>
     </packagedElement>
     <profileApplication xmi:id="_zZ1OMFyQEeG1mLF7jMwarw">
       <eAnnotations xmi:id="_zaNBoFyQEeG1mLF7jMwarw" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="uml_profiles/pyegg.profile.uml#_TlE34HtNEeKfMvxpliE4xA"/>
+        <references xmi:type="ecore:EPackage" href="uml_profiles/pyegg.profile.uml#_qPw84VydEeKx8cgmcB0BHg"/>
       </eAnnotations>
       <appliedProfile href="uml_profiles/pyegg.profile.uml#_HHBJsNqqEd6cif0axL0c4w"/>
     </profileApplication>
     <profileApplication xmi:id="_uF-6AAsbEeKGfoivsLRX3g">
       <eAnnotations xmi:id="_uGkI0AsbEeKGfoivsLRX3g" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="uml_profiles/zca.profile.uml#_uLQi8HtmEeKfMvxpliE4xA"/>
+        <references xmi:type="ecore:EPackage" href="uml_profiles/zca.profile.uml#_pMPxoHtuEeKcwYROwbCD9g"/>
       </eAnnotations>
       <appliedProfile href="uml_profiles/zca.profile.uml#_gTeSUL-VEeCXSLIizrgdww"/>
     </profileApplication>

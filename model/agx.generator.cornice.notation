@@ -680,7 +680,7 @@
       <children xmi:type="notation:Shape" xmi:id="_K3w7MHrZEeK-RajENgwa_Q" type="3028">
         <children xmi:type="notation:DecorationNode" xmi:id="_K3z-gHrZEeK-RajENgwa_Q" type="5063"/>
         <element xmi:type="uml:Comment" href="agx.generator.cornice.uml#_K2ZpQHrZEeK-RajENgwa_Q"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K3w7MXrZEeK-RajENgwa_Q" x="10" y="375" width="386" height="100"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K3w7MXrZEeK-RajENgwa_Q" x="10" y="375" width="406" height="118"/>
       </children>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0vsN4VyQEeG1mLF7jMwarw"/>
     </children>
