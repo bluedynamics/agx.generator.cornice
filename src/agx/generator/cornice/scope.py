@@ -30,3 +30,17 @@ class cornicescope(Scope):
         return 
 
 registerScope('cornicescope', 'uml2fs', None , cornicescope)
+
+class ServiceScope(Scope):
+
+    def __call__(self, node):
+        return node.stereotype('cornice:service') is not None
+
+registerScope('cornice_service', 'uml2fs', [IClass] , ServiceScope)
+
+class GetterScope(Scope):
+
+    def __call__(self, node):
+        return node.stereotype('cornice:get') is not None
+
+registerScope('getterscope', 'uml2fs', [IOperation] , GetterScope)

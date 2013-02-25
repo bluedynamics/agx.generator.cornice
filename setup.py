@@ -40,7 +40,8 @@ setup(name="agx.generator.cornice",
       ),
       entry_points="""
       ##code-section entry_points
-      
+      [agx.generator]
+        register = agx.generator.cornice:register
       ##/code-section entry_points
       """,
       ##code-section additionals
