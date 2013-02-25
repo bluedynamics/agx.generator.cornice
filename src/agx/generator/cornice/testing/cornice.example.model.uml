@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_Eam4EH-bEeKsFd1FhQZzfA" name="Model">
+  <packageImport xmi:id="_Eam4EX-bEeKsFd1FhQZzfA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_Ha-RwH-bEeKsFd1FhQZzfA" name="cornice.example.services">
+    <ownedComment xmi:id="_4RTugH-bEeKsFd1FhQZzfA">
+      <body>This Service simply offers one GET service, returning the api version (a String).
+(name = &quot;api_version&quot;, path= /api/v1/get_api_version)</body>
+    </ownedComment>
+    <ownedComment xmi:id="_vViQ4H-cEeKsFd1FhQZzfA">
+      <body>The UserService is a little more complicated:
+there are different methods (GET, PUT, DELETE)</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:Class" xmi:id="_NfIzoH-bEeKsFd1FhQZzfA" name="ApiVersionService">
+      <ownedAttribute xmi:id="_aS-5kH-bEeKsFd1FhQZzfA" name="name" visibility="public">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cxHI4H-bEeKsFd1FhQZzfA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cxJlIH-bEeKsFd1FhQZzfA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_cxPEsH-bEeKsFd1FhQZzfA">
+          <value xsi:nil="true"/>
+        </defaultValue>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_dDhukH-bEeKsFd1FhQZzfA" name="path" visibility="public">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fhzH0H-bEeKsFd1FhQZzfA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fh0V8H-bEeKsFd1FhQZzfA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fh2yMH-bEeKsFd1FhQZzfA">
+          <value xsi:nil="true"/>
+        </defaultValue>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_VYQsAH-bEeKsFd1FhQZzfA" name="get_api_version"/>
+      <ownedOperation xmi:id="_y5YAgH-bEeKsFd1FhQZzfA" name="my_fancy_validator"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_dzjn4H-cEeKsFd1FhQZzfA" name="UserService">
+      <ownedAttribute xmi:id="_pOc94H-cEeKsFd1FhQZzfA" name="name" visibility="public">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qrJlYH-cEeKsFd1FhQZzfA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qrKzgH-cEeKsFd1FhQZzfA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_qrLakH-cEeKsFd1FhQZzfA">
+          <value xsi:nil="true"/>
+        </defaultValue>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_rS0CUH-cEeKsFd1FhQZzfA" name="path" visibility="public">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_suadoH-cEeKsFd1FhQZzfA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_subEsH-cEeKsFd1FhQZzfA" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_sucS0H-cEeKsFd1FhQZzfA">
+          <value xsi:nil="true"/>
+        </defaultValue>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_h_SogH-cEeKsFd1FhQZzfA" name="get_users"/>
+      <ownedOperation xmi:id="_jXsl4H-cEeKsFd1FhQZzfA" name="create_user"/>
+      <ownedOperation xmi:id="_kucWYH-cEeKsFd1FhQZzfA" name="delete_user"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
