@@ -8,7 +8,7 @@ from setuptools import (
 
 
 version = "1.0"
-shortdesc = "a generator for rest api services using cornice"
+shortdesc = ""
 longdesc = open(os.path.join(os.path.dirname(__file__), 'README.rst')).read()
 
 
@@ -20,7 +20,7 @@ setup(name="agx.generator.cornice",
           "",
       ],
       keywords="",
-      author="christoph scheid",
+      author="",
       author_email="",
       url="",
       license="",

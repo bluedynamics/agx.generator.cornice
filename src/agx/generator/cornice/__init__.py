@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+import generator, \
+       scope
+
 def register():
     """register this generator
     """
