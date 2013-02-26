@@ -127,11 +127,11 @@
           </children>
           <children xmi:type="notation:Shape" xmi:id="_kueLkH-cEeKsFd1FhQZzfA" type="3013">
             <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mi1xkH-vEeKuf9fd571QzQ" source="Stereotype_Annotation">
-              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mi1xkX-vEeKuf9fd571QzQ" key="StereotypeWithQualifiedNameList" value=""/>
-              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mi2YoH-vEeKuf9fd571QzQ" key="StereotypeList" value="cornice::put"/>
-              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mi2YoX-vEeKuf9fd571QzQ" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
-              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mi2Yon-vEeKuf9fd571QzQ" key="PropStereoDisplay" value=""/>
-              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mi2Yo3-vEeKuf9fd571QzQ" key="StereotypePropertyLocation" value="Compartment"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BBcH8IALEeKHruYTFsDpWg" key="StereotypeWithQualifiedNameList" value=""/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BBcH8YALEeKHruYTFsDpWg" key="StereotypeList" value="cornice::delete"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BBcH8oALEeKHruYTFsDpWg" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BBcH84ALEeKHruYTFsDpWg" key="PropStereoDisplay" value=""/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BBcH9IALEeKHruYTFsDpWg" key="StereotypePropertyLocation" value="Compartment"/>
             </eAnnotations>
             <element xmi:type="uml:Operation" href="cornice.example.model.uml#_kucWYH-cEeKsFd1FhQZzfA"/>
             <layoutConstraint xmi:type="notation:Location" xmi:id="_kueLkX-cEeKsFd1FhQZzfA"/>
