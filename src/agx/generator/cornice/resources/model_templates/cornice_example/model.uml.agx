@@ -1,5 +1,5 @@
 #---AGX Properties---
-#Tue Feb 26 02:01:10 CET 2013
+#Tue Feb 26 04:11:19 CET 2013
 profiles=cornice;pyegg
+target=/home/phil/dev/projects/agx.dev/devsrc/agx.generator.cornice/src/agx/generator/cornice/resources/model_templates/cornice_example
 generator=/home/phil/dev/projects/agx.dev/bin/agx
-target=.
