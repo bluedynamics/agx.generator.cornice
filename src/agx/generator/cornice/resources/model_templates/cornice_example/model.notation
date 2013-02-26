@@ -20,11 +20,11 @@
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NfMeAX-bEeKsFd1FhQZzfA" key="showTitle" value="true"/>
           </eAnnotations>
           <children xmi:type="notation:Shape" xmi:id="_aTB84H-bEeKsFd1FhQZzfA" type="3012">
-            <element xmi:type="uml:Property" href="cornice.example.model.uml#_aS-5kH-bEeKsFd1FhQZzfA"/>
+            <element xmi:type="uml:Property" href="model.uml#_aS-5kH-bEeKsFd1FhQZzfA"/>
             <layoutConstraint xmi:type="notation:Location" xmi:id="_aTB84X-bEeKsFd1FhQZzfA"/>
           </children>
           <children xmi:type="notation:Shape" xmi:id="_dDkK0H-bEeKsFd1FhQZzfA" type="3012">
-            <element xmi:type="uml:Property" href="cornice.example.model.uml#_dDhukH-bEeKsFd1FhQZzfA"/>
+            <element xmi:type="uml:Property" href="model.uml#_dDhukH-bEeKsFd1FhQZzfA"/>
             <layoutConstraint xmi:type="notation:Location" xmi:id="_dDkK0X-bEeKsFd1FhQZzfA"/>
           </children>
           <styles xmi:type="notation:TitleStyle" xmi:id="_NfL29H-bEeKsFd1FhQZzfA"/>
@@ -44,7 +44,7 @@
               <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gixFhH-vEeKuf9fd571QzQ" key="PropStereoDisplay" value=""/>
               <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gixFhX-vEeKuf9fd571QzQ" key="StereotypePropertyLocation" value="Compartment"/>
             </eAnnotations>
-            <element xmi:type="uml:Operation" href="cornice.example.model.uml#_VYQsAH-bEeKsFd1FhQZzfA"/>
+            <element xmi:type="uml:Operation" href="model.uml#_VYQsAH-bEeKsFd1FhQZzfA"/>
             <layoutConstraint xmi:type="notation:Location" xmi:id="_VYTIQX-bEeKsFd1FhQZzfA"/>
           </children>
           <children xmi:type="notation:Shape" xmi:id="_y5acwH-bEeKsFd1FhQZzfA" type="3013">
@@ -55,7 +55,7 @@
               <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_h9bFpH-vEeKuf9fd571QzQ" key="PropStereoDisplay" value=""/>
               <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_h9bFpX-vEeKuf9fd571QzQ" key="StereotypePropertyLocation" value="Compartment"/>
             </eAnnotations>
-            <element xmi:type="uml:Operation" href="cornice.example.model.uml#_y5YAgH-bEeKsFd1FhQZzfA"/>
+            <element xmi:type="uml:Operation" href="model.uml#_y5YAgH-bEeKsFd1FhQZzfA"/>
             <layoutConstraint xmi:type="notation:Location" xmi:id="_y5acwX-bEeKsFd1FhQZzfA"/>
           </children>
           <styles xmi:type="notation:TitleStyle" xmi:id="_NfL2-X-bEeKsFd1FhQZzfA"/>
@@ -72,12 +72,12 @@
           <styles xmi:type="notation:FilteringStyle" xmi:id="_NfL3AH-bEeKsFd1FhQZzfA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NfL3AX-bEeKsFd1FhQZzfA"/>
         </children>
-        <element xmi:type="uml:Class" href="cornice.example.model.uml#_NfIzoH-bEeKsFd1FhQZzfA"/>
+        <element xmi:type="uml:Class" href="model.uml#_NfIzoH-bEeKsFd1FhQZzfA"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NfL28X-bEeKsFd1FhQZzfA" x="25" y="117" width="246" height="206"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_4RiYAH-bEeKsFd1FhQZzfA" type="3028">
         <children xmi:type="notation:DecorationNode" xmi:id="_4RiYAn-bEeKsFd1FhQZzfA" type="5063"/>
-        <element xmi:type="uml:Comment" href="cornice.example.model.uml#_4RTugH-bEeKsFd1FhQZzfA"/>
+        <element xmi:type="uml:Comment" href="model.uml#_4RTugH-bEeKsFd1FhQZzfA"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4RiYAX-bEeKsFd1FhQZzfA" x="25" y="17" width="246" height="76"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_dzmrMH-cEeKsFd1FhQZzfA" type="3010">
@@ -87,11 +87,11 @@
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dznSRX-cEeKsFd1FhQZzfA" key="showTitle" value="true"/>
           </eAnnotations>
           <children xmi:type="notation:Shape" xmi:id="_pOezEH-cEeKsFd1FhQZzfA" type="3012">
-            <element xmi:type="uml:Property" href="cornice.example.model.uml#_pOc94H-cEeKsFd1FhQZzfA"/>
+            <element xmi:type="uml:Property" href="model.uml#_pOc94H-cEeKsFd1FhQZzfA"/>
             <layoutConstraint xmi:type="notation:Location" xmi:id="_pOezEX-cEeKsFd1FhQZzfA"/>
           </children>
           <children xmi:type="notation:Shape" xmi:id="_rS2ekH-cEeKsFd1FhQZzfA" type="3012">
-            <element xmi:type="uml:Property" href="cornice.example.model.uml#_rS0CUH-cEeKsFd1FhQZzfA"/>
+            <element xmi:type="uml:Property" href="model.uml#_rS0CUH-cEeKsFd1FhQZzfA"/>
             <layoutConstraint xmi:type="notation:Location" xmi:id="_rS2ekX-cEeKsFd1FhQZzfA"/>
           </children>
           <styles xmi:type="notation:TitleStyle" xmi:id="_dzmrNH-cEeKsFd1FhQZzfA"/>
@@ -111,7 +111,7 @@
               <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jjPM43-vEeKuf9fd571QzQ" key="PropStereoDisplay" value=""/>
               <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jjPM5H-vEeKuf9fd571QzQ" key="StereotypePropertyLocation" value="Compartment"/>
             </eAnnotations>
-            <element xmi:type="uml:Operation" href="cornice.example.model.uml#_h_SogH-cEeKsFd1FhQZzfA"/>
+            <element xmi:type="uml:Operation" href="model.uml#_h_SogH-cEeKsFd1FhQZzfA"/>
             <layoutConstraint xmi:type="notation:Location" xmi:id="_h_UdsX-cEeKsFd1FhQZzfA"/>
           </children>
           <children xmi:type="notation:Shape" xmi:id="_jXubEH-cEeKsFd1FhQZzfA" type="3013">
@@ -122,7 +122,7 @@
               <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lJs0Y3-vEeKuf9fd571QzQ" key="PropStereoDisplay" value=""/>
               <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lJs0ZH-vEeKuf9fd571QzQ" key="StereotypePropertyLocation" value="Compartment"/>
             </eAnnotations>
-            <element xmi:type="uml:Operation" href="cornice.example.model.uml#_jXsl4H-cEeKsFd1FhQZzfA"/>
+            <element xmi:type="uml:Operation" href="model.uml#_jXsl4H-cEeKsFd1FhQZzfA"/>
             <layoutConstraint xmi:type="notation:Location" xmi:id="_jXubEX-cEeKsFd1FhQZzfA"/>
           </children>
           <children xmi:type="notation:Shape" xmi:id="_kueLkH-cEeKsFd1FhQZzfA" type="3013">
@@ -133,7 +133,7 @@
               <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mi2Yon-vEeKuf9fd571QzQ" key="PropStereoDisplay" value=""/>
               <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mi2Yo3-vEeKuf9fd571QzQ" key="StereotypePropertyLocation" value="Compartment"/>
             </eAnnotations>
-            <element xmi:type="uml:Operation" href="cornice.example.model.uml#_kucWYH-cEeKsFd1FhQZzfA"/>
+            <element xmi:type="uml:Operation" href="model.uml#_kucWYH-cEeKsFd1FhQZzfA"/>
             <layoutConstraint xmi:type="notation:Location" xmi:id="_kueLkX-cEeKsFd1FhQZzfA"/>
           </children>
           <styles xmi:type="notation:TitleStyle" xmi:id="_dzmrOX-cEeKsFd1FhQZzfA"/>
@@ -150,20 +150,20 @@
           <styles xmi:type="notation:FilteringStyle" xmi:id="_dznSQn-cEeKsFd1FhQZzfA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dznSQ3-cEeKsFd1FhQZzfA"/>
         </children>
-        <element xmi:type="uml:Class" href="cornice.example.model.uml#_dzjn4H-cEeKsFd1FhQZzfA"/>
+        <element xmi:type="uml:Class" href="model.uml#_dzjn4H-cEeKsFd1FhQZzfA"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dzmrMX-cEeKsFd1FhQZzfA" x="320" y="117" width="281" height="206"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_vVkGEH-cEeKsFd1FhQZzfA" type="3028">
         <children xmi:type="notation:DecorationNode" xmi:id="_vVktIH-cEeKsFd1FhQZzfA" type="5063"/>
-        <element xmi:type="uml:Comment" href="cornice.example.model.uml#_vViQ4H-cEeKsFd1FhQZzfA"/>
+        <element xmi:type="uml:Comment" href="model.uml#_vViQ4H-cEeKsFd1FhQZzfA"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vVkGEX-cEeKsFd1FhQZzfA" x="320" y="17" width="281" height="71"/>
       </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_HbX6Yn-bEeKsFd1FhQZzfA"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HbX6Y3-bEeKsFd1FhQZzfA"/>
     </children>
-    <element xmi:type="uml:Package" href="cornice.example.model.uml#_Ha-RwH-bEeKsFd1FhQZzfA"/>
+    <element xmi:type="uml:Package" href="model.uml#_Ha-RwH-bEeKsFd1FhQZzfA"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HbWsQX-bEeKsFd1FhQZzfA" x="30" y="30" width="666" height="376"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_EarJgX-bEeKsFd1FhQZzfA"/>
-  <element xmi:type="uml:Model" href="cornice.example.model.uml#_Eam4EH-bEeKsFd1FhQZzfA"/>
+  <element xmi:type="uml:Model" href="model.uml#_Eam4EH-bEeKsFd1FhQZzfA"/>
 </notation:Diagram>

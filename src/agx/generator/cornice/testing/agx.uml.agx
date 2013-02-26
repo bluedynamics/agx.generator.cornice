@@ -1,4 +1,0 @@
-#---AGX Properties---
-#Mon Feb 25 22:18:31 CET 2013
-profiles=pyegg,cornice
-target=/home/phil/dev/projects/agx.dev/devsrc/agx.generator.cornice/src/agx/generator/cornice/testing
