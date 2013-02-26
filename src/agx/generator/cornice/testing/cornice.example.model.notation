@@ -49,11 +49,11 @@
           </children>
           <children xmi:type="notation:Shape" xmi:id="_y5acwH-bEeKsFd1FhQZzfA" type="3013">
             <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_h9bFoH-vEeKuf9fd571QzQ" source="Stereotype_Annotation">
-              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_h9bFoX-vEeKuf9fd571QzQ" key="StereotypeWithQualifiedNameList" value=""/>
-              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_h9bFon-vEeKuf9fd571QzQ" key="StereotypeList" value="cornice::post"/>
-              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_h9bFo3-vEeKuf9fd571QzQ" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
-              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_h9bFpH-vEeKuf9fd571QzQ" key="PropStereoDisplay" value=""/>
-              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_h9bFpX-vEeKuf9fd571QzQ" key="StereotypePropertyLocation" value="Compartment"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VECTkIALEeKHruYTFsDpWg" key="StereotypeWithQualifiedNameList" value=""/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VECTkYALEeKHruYTFsDpWg" key="StereotypeList" value=""/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VECTkoALEeKHruYTFsDpWg" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VECTk4ALEeKHruYTFsDpWg" key="PropStereoDisplay" value=""/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VECTlIALEeKHruYTFsDpWg" key="StereotypePropertyLocation" value="Compartment"/>
             </eAnnotations>
             <element xmi:type="uml:Operation" href="cornice.example.model.uml#_y5YAgH-bEeKsFd1FhQZzfA"/>
             <layoutConstraint xmi:type="notation:Location" xmi:id="_y5acwX-bEeKsFd1FhQZzfA"/>
