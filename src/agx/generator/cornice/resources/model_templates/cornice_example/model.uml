@@ -74,4 +74,6 @@ there are different methods (GET, PUT, DELETE)</body>
   <cornice:get xmi:id="_jjBKcH-vEeKuf9fd571QzQ" base_Operation="_h_SogH-cEeKsFd1FhQZzfA"/>
   <cornice:post xmi:id="_lJeK4H-vEeKuf9fd571QzQ" base_Operation="_jXsl4H-cEeKsFd1FhQZzfA"/>
   <cornice:put xmi:id="_miqycH-vEeKuf9fd571QzQ" base_Operation="_kucWYH-cEeKsFd1FhQZzfA"/>
+  <cornice:service xmi:id="_mTbFwIDREeKHruYTFsDpWg" base_Class="_NfIzoH-bEeKsFd1FhQZzfA"/>
+  <cornice:service xmi:id="_nqbU8IDREeKHruYTFsDpWg" base_Class="_dzjn4H-cEeKsFd1FhQZzfA"/>
 </xmi:XMI>

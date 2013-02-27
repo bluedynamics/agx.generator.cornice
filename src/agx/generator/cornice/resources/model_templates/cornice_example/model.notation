@@ -14,6 +14,13 @@
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HbYhcX-bEeKsFd1FhQZzfA" key="showTitle" value="true"/>
       </eAnnotations>
       <children xmi:type="notation:Shape" xmi:id="_NfL28H-bEeKsFd1FhQZzfA" type="3010">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mTk2wIDREeKHruYTFsDpWg" source="Stereotype_Annotation">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mTk2wYDREeKHruYTFsDpWg" key="StereotypeWithQualifiedNameList" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mTk2woDREeKHruYTFsDpWg" key="StereotypeList" value="cornice::service"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mTk2w4DREeKHruYTFsDpWg" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mTk2xIDREeKHruYTFsDpWg" key="PropStereoDisplay" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mTk2xYDREeKHruYTFsDpWg" key="StereotypePropertyLocation" value="Compartment"/>
+        </eAnnotations>
         <children xmi:type="notation:DecorationNode" xmi:id="_NfL28n-bEeKsFd1FhQZzfA" type="5014"/>
         <children xmi:type="notation:BasicCompartment" xmi:id="_NfL283-bEeKsFd1FhQZzfA" type="7011">
           <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NfMeAH-bEeKsFd1FhQZzfA" source="PapyrusCSSForceValue">
@@ -81,6 +88,13 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4RiYAX-bEeKsFd1FhQZzfA" x="25" y="17" width="246" height="76"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_dzmrMH-cEeKsFd1FhQZzfA" type="3010">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nqltAIDREeKHruYTFsDpWg" source="Stereotype_Annotation">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nqmUEIDREeKHruYTFsDpWg" key="StereotypeWithQualifiedNameList" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nqmUEYDREeKHruYTFsDpWg" key="StereotypeList" value="cornice::service"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nqmUEoDREeKHruYTFsDpWg" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nqmUE4DREeKHruYTFsDpWg" key="PropStereoDisplay" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nqmUFIDREeKHruYTFsDpWg" key="StereotypePropertyLocation" value="Compartment"/>
+        </eAnnotations>
         <children xmi:type="notation:DecorationNode" xmi:id="_dzmrMn-cEeKsFd1FhQZzfA" type="5014"/>
         <children xmi:type="notation:BasicCompartment" xmi:id="_dzmrM3-cEeKsFd1FhQZzfA" type="7011">
           <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dznSRH-cEeKsFd1FhQZzfA" source="PapyrusCSSForceValue">
