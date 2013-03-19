@@ -1,3 +1,4 @@
+#! /path/to/bin/agx
 #---AGX Properties---
 #Tue Feb 26 04:11:19 CET 2013
 profiles=cornice;pyegg
