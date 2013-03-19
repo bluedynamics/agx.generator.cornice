@@ -16,31 +16,36 @@ from node.ext.uml.interfaces import (
     IAssociation,
 )
 
+
 class PackagesAndEggsScope(Scope):
 
     def __call__(self, node):
-        return node.stereotype('pyegg:pythonegg') is not None or node.stereotype('pyegg:pymodule') is not None
+        return node.stereotype('pyegg:pythonegg') is not None \
+            or node.stereotype('pyegg:pymodule') is not None
 
-registerScope('packagesandeggs', 'uml2fs', [IPackage] , PackagesAndEggsScope)
-registerScope('classesandpackages', 'uml2fs', [IClass,IPackage] , Scope)
+registerScope('packagesandeggs', 'uml2fs', [IPackage], PackagesAndEggsScope)
+registerScope('classesandpackages', 'uml2fs', [IClass, IPackage], Scope)
+
 
 class cornicescope(Scope):
 
     def __call__(self, node):
         return 
 
-registerScope('cornicescope', 'uml2fs', None , cornicescope)
+registerScope('cornicescope', 'uml2fs', None, cornicescope)
+
 
 class ServiceScope(Scope):
 
     def __call__(self, node):
         return node.stereotype('cornice:service') is not None
 
-registerScope('cornice_service', 'uml2fs', [IClass] , ServiceScope)
+registerScope('cornice_service', 'uml2fs', [IClass], ServiceScope)
 
-class GetterScope(Scope):
+
+class GETScope(Scope):
 
     def __call__(self, node):
         return node.stereotype('cornice:get') is not None
 
-registerScope('getterscope', 'uml2fs', [IOperation] , GetterScope)
+registerScope('getscope', 'uml2fs', [IOperation], GETScope)

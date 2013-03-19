@@ -25,10 +25,12 @@ from node.ext.uml.interfaces import (
     IAssociation,
 )
 
+
 @handler('create_service', 'uml2fs', 'connectorgenerator', 'cornice_service')
 def create_service(self, source, target):
     print 'this is a cornice service:', source.name
 
-@handler('handle_getter', 'uml2fs', 'connectorgenerator', 'getterscope')
-def handle_getter(self, source, target):
-    print 'this is a cornice getter:', source.name
+
+@handler('handle_GET', 'uml2fs', 'connectorgenerator', 'GET_scope')
+def handle_GET(self, source, target):
+    print 'this is a cornice GET:', source.name
