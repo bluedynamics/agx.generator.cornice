@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:generator="http:///schemas/generator/_1Yi2wHtrEeKfMvxpliE4xA/48" xmlns:pyegg="http:///schemas/pyegg/_TlCboHtNEeKfMvxpliE4xA/27" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/generator/_1Yi2wHtrEeKfMvxpliE4xA/48 ../../agx.generator.generator/src/agx/generator/generator/resources/model_templates/generator_example/uml_profiles/generator.profile.uml#_1Yi2wXtrEeKfMvxpliE4xA http:///schemas/pyegg/_TlCboHtNEeKfMvxpliE4xA/27 ../../agx.generator.generator/src/agx/generator/generator/resources/model_templates/generator_example/uml_profiles/pyegg.profile.uml#_TlE34HtNEeKfMvxpliE4xA">
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:generator="http:///schemas/generator/_1Yi2wHtrEeKfMvxpliE4xA/48" xmlns:pyegg="http:///schemas/pyegg/_TlCboHtNEeKfMvxpliE4xA/27" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/generator/_1Yi2wHtrEeKfMvxpliE4xA/48 uml_profiles/generator.profile.uml#_1Yi2wXtrEeKfMvxpliE4xA http:///schemas/pyegg/_TlCboHtNEeKfMvxpliE4xA/27 ../../agx.generator.generator/src/agx/generator/generator/resources/model_templates/generator_example/uml_profiles/pyegg.profile.uml#_TlE34HtNEeKfMvxpliE4xA">
   <uml:Model xmi:id="_rxHwYFyQEeG1mLF7jMwarw" name="model">
     <packagedElement xmi:type="uml:Package" xmi:id="_0vR-MFyQEeG1mLF7jMwarw" name="agx.generator.cornice">
       <ownedComment xmi:id="_K2ZpQHrZEeK-RajENgwa_Q">
@@ -38,9 +38,18 @@ Connect (with a dependency) to
         <packagedElement xmi:type="uml:Class" xmi:id="_jj4VsHxEEeKxnpwB-_Mwzg" clientDependency="_fpCl4HxGEeKxnpwB-_Mwzg _jVMukHxGEeKxnpwB-_Mwzg" name="create_service"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_fpCl4HxGEeKxnpwB-_Mwzg" name="" client="_jj4VsHxEEeKxnpwB-_Mwzg" supplier="_o-jOoHxEEeKxnpwB-_Mwzg"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_jVMukHxGEeKxnpwB-_Mwzg" name="" client="_jj4VsHxEEeKxnpwB-_Mwzg" supplier="_WqdF4AsqEeKGfoivsLRX3g"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_5wEtMH-IEeKcGMU-mkX_cg" clientDependency="_BEsKUH-JEeKcGMU-mkX_cg _CUHK0H-JEeKcGMU-mkX_cg" name="handle_getter"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_5wEtMH-IEeKcGMU-mkX_cg" clientDependency="_BEsKUH-JEeKcGMU-mkX_cg _CUHK0H-JEeKcGMU-mkX_cg" name="handle_GET"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_BEsKUH-JEeKcGMU-mkX_cg" name="" client="_5wEtMH-IEeKcGMU-mkX_cg" supplier="_lsRAoH-IEeKcGMU-mkX_cg"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_CUHK0H-JEeKcGMU-mkX_cg" name="" client="_5wEtMH-IEeKcGMU-mkX_cg" supplier="_WqdF4AsqEeKGfoivsLRX3g"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GQHPUJA9EeK2YcnhNl_MYA" clientDependency="_UaK6QJA9EeK2YcnhNl_MYA _cXYocJA9EeK2YcnhNl_MYA" name="handle_PUT"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_LkYlUJA9EeK2YcnhNl_MYA" clientDependency="_W_-e4JA9EeK2YcnhNl_MYA _eWs00JA9EeK2YcnhNl_MYA" name="handle_POST"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_N9yssJA9EeK2YcnhNl_MYA" clientDependency="_acKR4JA9EeK2YcnhNl_MYA _i6An8JA9EeK2YcnhNl_MYA" name="handle_DELETE"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_UaK6QJA9EeK2YcnhNl_MYA" name="" client="_GQHPUJA9EeK2YcnhNl_MYA" supplier="_fpH7cJA8EeK2YcnhNl_MYA"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_W_-e4JA9EeK2YcnhNl_MYA" name="" client="_LkYlUJA9EeK2YcnhNl_MYA" supplier="_km_joJA8EeK2YcnhNl_MYA"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_acKR4JA9EeK2YcnhNl_MYA" name="" client="_N9yssJA9EeK2YcnhNl_MYA" supplier="_qMGK8JA8EeK2YcnhNl_MYA"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_cXYocJA9EeK2YcnhNl_MYA" name="" client="_GQHPUJA9EeK2YcnhNl_MYA" supplier="_WqdF4AsqEeKGfoivsLRX3g"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_eWs00JA9EeK2YcnhNl_MYA" name="" client="_LkYlUJA9EeK2YcnhNl_MYA" supplier="_WqdF4AsqEeKGfoivsLRX3g"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_i6An8JA9EeK2YcnhNl_MYA" name="" client="_N9yssJA9EeK2YcnhNl_MYA" supplier="_WqdF4AsqEeKGfoivsLRX3g"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_Srs_EAsvEeKbFrhzZvXz8w" name="scope">
         <ownedComment xmi:id="_1JkT8HrZEeK-RajENgwa_Q">
@@ -52,7 +61,10 @@ Replace this comment with a Class for the custom scope.</body>
         <packagedElement xmi:type="uml:Class" xmi:id="_bZmI8A50EeKgj7WFwZrcAg" name="ClassesAndPackagesScope"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_Ic1AQBRDEeKcC97Hb5tvFQ" name="pyclass"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_o-jOoHxEEeKxnpwB-_Mwzg" name="ServiceScope"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_lsRAoH-IEeKcGMU-mkX_cg" name="GetterScope"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_lsRAoH-IEeKcGMU-mkX_cg" name="GETScope"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_fpH7cJA8EeK2YcnhNl_MYA" name="PUTScope"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_km_joJA8EeK2YcnhNl_MYA" name="POSTScope"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qMGK8JA8EeK2YcnhNl_MYA" name="DELETEScope"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_kzJEgA5vEeKgj7WFwZrcAg" name="" client="_W0v3AA5vEeKgj7WFwZrcAg" supplier="_WqdF4AsqEeKGfoivsLRX3g"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_W0v3AA5vEeKgj7WFwZrcAg" clientDependency="_kzJEgA5vEeKgj7WFwZrcAg" name="mygenerator"/>
@@ -118,4 +130,10 @@ Replace this comment with a Class for the custom scope.</body>
     <stereotypes>cornice:get</stereotypes>
     <interfaces>IOperation</interfaces>
   </generator:class_scope>
+  <generator:handler xmi:id="_yDoScJA9EeK2YcnhNl_MYA" base_Class="_GQHPUJA9EeK2YcnhNl_MYA"/>
+  <generator:handler xmi:id="__Hi0sJA9EeK2YcnhNl_MYA" base_Class="_LkYlUJA9EeK2YcnhNl_MYA"/>
+  <generator:handler xmi:id="_Bd0IgJA-EeK2YcnhNl_MYA" base_Class="_N9yssJA9EeK2YcnhNl_MYA"/>
+  <generator:simple_scope xmi:id="_HIoWQJA-EeK2YcnhNl_MYA" base_Class="_qMGK8JA8EeK2YcnhNl_MYA"/>
+  <generator:class_scope xmi:id="_K8wvMJA-EeK2YcnhNl_MYA" base_Class="_km_joJA8EeK2YcnhNl_MYA"/>
+  <generator:simple_scope xmi:id="_OYVeMJA-EeK2YcnhNl_MYA" base_Class="_fpH7cJA8EeK2YcnhNl_MYA"/>
 </xmi:XMI>
