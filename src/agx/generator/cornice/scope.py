@@ -19,18 +19,10 @@ from node.ext.uml.interfaces import (
 class PackagesAndEggsScope(Scope):
 
     def __call__(self, node):
-        return node.stereotype('pyegg:pythonegg') is not None \
-            or node.stereotype('pyegg:pymodule') is not None
+        return node.stereotype('pyegg:pythonegg') is not None or node.stereotype('pyegg:pymodule') is not None
 
 registerScope('packagesandeggs', 'uml2fs', [IPackage], PackagesAndEggsScope)
 registerScope('classesandpackages', 'uml2fs', [IClass,IPackage], Scope)
-
-class cornicescope(Scope):
-
-    def __call__(self, node):
-        return 
-
-registerScope('cornicescope', 'uml2fs', None, cornicescope)
 
 class ServiceScope(Scope):
 
@@ -45,7 +37,13 @@ class GETScope(Scope):
         return node.stereotype('cornice:get') is not None
 
 registerScope('getscope', 'uml2fs', [IOperation], GETScope)
-registerScope('putscope', 'uml2fs', None, Scope)
+
+class PUTScope(Scope):
+
+    def __call__(self, node):
+        return 
+
+registerScope('putscope', 'uml2fs', None, PUTScope)
 
 class POSTScope(Scope):
 
@@ -53,4 +51,10 @@ class POSTScope(Scope):
         return 
 
 registerScope('postscope', 'uml2fs', None, POSTScope)
-registerScope('deletescope', 'uml2fs', None, Scope)
+
+class DELETEScope(Scope):
+
+    def __call__(self, node):
+        return 
+
+registerScope('deletescope', 'uml2fs', None, DELETEScope)
