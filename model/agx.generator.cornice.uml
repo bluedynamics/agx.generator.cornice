@@ -133,7 +133,7 @@ Replace this comment with a Class for the custom scope.</body>
   <generator:handler xmi:id="_yDoScJA9EeK2YcnhNl_MYA" base_Class="_GQHPUJA9EeK2YcnhNl_MYA"/>
   <generator:handler xmi:id="__Hi0sJA9EeK2YcnhNl_MYA" base_Class="_LkYlUJA9EeK2YcnhNl_MYA"/>
   <generator:handler xmi:id="_Bd0IgJA-EeK2YcnhNl_MYA" base_Class="_N9yssJA9EeK2YcnhNl_MYA"/>
-  <generator:simple_scope xmi:id="_HIoWQJA-EeK2YcnhNl_MYA" base_Class="_qMGK8JA8EeK2YcnhNl_MYA"/>
   <generator:class_scope xmi:id="_K8wvMJA-EeK2YcnhNl_MYA" base_Class="_km_joJA8EeK2YcnhNl_MYA"/>
-  <generator:simple_scope xmi:id="_OYVeMJA-EeK2YcnhNl_MYA" base_Class="_fpH7cJA8EeK2YcnhNl_MYA"/>
+  <generator:class_scope xmi:id="_LOCnsJJHEeKldNNvPZYZKQ" base_Class="_fpH7cJA8EeK2YcnhNl_MYA"/>
+  <generator:class_scope xmi:id="_OR-50JJHEeKldNNvPZYZKQ" base_Class="_qMGK8JA8EeK2YcnhNl_MYA"/>
 </xmi:XMI>
