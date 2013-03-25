@@ -32,6 +32,7 @@ setup(name="agx.generator.cornice",
       install_requires=[
           'setuptools',
           ##code-section dependencies
+          'agx.generator.pyramid',
           ##/code-section dependencies
       ],
       extras_require=dict(
