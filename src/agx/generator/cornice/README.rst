@@ -35,6 +35,10 @@ https://github.com/C3S/c3s.app.restapi/blob/master/src/c3s/api/views.py#L126
 https://github.com/C3S/c3s.app.restapi/blob/master/src/c3s/api/views.py#L208
 
 
+The generated lines should be put in a module called services.py (next to views.py
+like a pyramid starter scaffolds views.py). 
+
+
 Stereotypes <<get>>, <<put>>, <<post>>, <<delete>>
 --------------------------------------------------
 
