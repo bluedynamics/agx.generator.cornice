@@ -73,6 +73,6 @@ there are different methods (GET, PUT, DELETE)</body>
   <cornice:get xmi:id="_jjBKcH-vEeKuf9fd571QzQ" base_Operation="_h_SogH-cEeKsFd1FhQZzfA"/>
   <cornice:delete xmi:id="_BBX2gIALEeKHruYTFsDpWg" base_Operation="_kucWYH-cEeKsFd1FhQZzfA"/>
   <cornice:put xmi:id="_Ob3swIALEeKHruYTFsDpWg" base_Operation="_jXsl4H-cEeKsFd1FhQZzfA"/>
-  <cornice:service xmi:id="_g-t84IALEeKHruYTFsDpWg" base_Class="_NfIzoH-bEeKsFd1FhQZzfA"/>
-  <cornice:service xmi:id="_ku1YgIALEeKHruYTFsDpWg" base_Class="_dzjn4H-cEeKsFd1FhQZzfA"/>
+  <cornice:service xmi:id="_g-t84IALEeKHruYTFsDpWg" base_Class="_NfIzoH-bEeKsFd1FhQZzfA" name="api_version" path="/api_version"/>
+  <cornice:service xmi:id="_ku1YgIALEeKHruYTFsDpWg" base_Class="_dzjn4H-cEeKsFd1FhQZzfA" name="users" path="/users"/>
 </xmi:XMI>
