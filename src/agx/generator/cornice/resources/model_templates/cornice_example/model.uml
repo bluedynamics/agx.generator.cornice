@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cornice="http:///schemas/cornice/_q7SN8H-uEeKuf9fd571QzQ/6" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:pyegg="http:///schemas/pyegg/_0LUxkH-QEeKuf9fd571QzQ/29" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/cornice/_q7SN8H-uEeKuf9fd571QzQ/6 uml_profiles/cornice.profile.uml#_q7TcEH-uEeKuf9fd571QzQ http:///schemas/pyegg/_0LUxkH-QEeKuf9fd571QzQ/29 uml_profiles/pyegg.profile.uml#_0LX04H-QEeKuf9fd571QzQ">
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xmlns:cornice="http:///schemas/cornice/_q7SN8H-uEeKuf9fd571QzQ/6"
+	 xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" 
+	 xmlns:pyegg="http:///schemas/pyegg/_FjJE0HtmEeKvC-Xbutnx2A/28" 
+	 xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML"
+	 xsi:schemaLocation="http:///schemas/cornice/_q7SN8H-uEeKuf9fd571QzQ/6 uml_profiles/cornice.profile.uml#_q7TcEH-uEeKuf9fd571QzQ
+			     http:///schemas/pyegg/_0LUxkH-QEeKuf9fd571QzQ/29 uml_profiles/pyegg.profile.uml#_0LX04H-QEeKuf9fd571QzQ
+			     http:///schemas/pyegg/_FjJE0HtmEeKvC-Xbutnx2A/28 uml_profiles/pyegg.profile.uml#_FjJr4HtmEeKvC-Xbutnx2A">
   <uml:Model xmi:id="_Eam4EH-bEeKsFd1FhQZzfA" name="Model">
     <packageImport xmi:id="_Eam4EX-bEeKsFd1FhQZzfA">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -61,18 +69,18 @@ there are different methods (GET, PUT, DELETE)</body>
       </eAnnotations>
       <appliedProfile href="uml_profiles/cornice.profile.uml#_ELuoEGZAEeKWD5QSKmVm5w"/>
     </profileApplication>
-    <profileApplication xmi:id="__4hc4H-uEeKuf9fd571QzQ">
-      <eAnnotations xmi:id="__4_W8H-uEeKuf9fd571QzQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="uml_profiles/pyegg.profile.uml#_0LX04H-QEeKuf9fd571QzQ"/>
+    <profileApplication xmi:id="_GZMjAJcFEeKfbKIWhJpdMA">
+      <eAnnotations xmi:id="_GZcaoJcFEeKfbKIWhJpdMA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="uml_profiles/pyegg.profile.uml#_FjJr4HtmEeKvC-Xbutnx2A"/>
       </eAnnotations>
       <appliedProfile href="uml_profiles/pyegg.profile.uml#_HHBJsNqqEd6cif0axL0c4w"/>
     </profileApplication>
   </uml:Model>
-  <pyegg:pyegg xmi:id="_GBipkH-vEeKuf9fd571QzQ" base_Package="_Ha-RwH-bEeKsFd1FhQZzfA"/>
   <cornice:get xmi:id="_giL2sH-vEeKuf9fd571QzQ" base_Operation="_VYQsAH-bEeKsFd1FhQZzfA"/>
   <cornice:get xmi:id="_jjBKcH-vEeKuf9fd571QzQ" base_Operation="_h_SogH-cEeKsFd1FhQZzfA"/>
-  <cornice:service xmi:id="_mTbFwIDREeKHruYTFsDpWg" base_Class="_NfIzoH-bEeKsFd1FhQZzfA"/>
-  <cornice:service xmi:id="_nqbU8IDREeKHruYTFsDpWg" base_Class="_dzjn4H-cEeKsFd1FhQZzfA"/>
+  <cornice:service xmi:id="_mTbFwIDREeKHruYTFsDpWg" base_Class="_NfIzoH-bEeKsFd1FhQZzfA" name="api_version" path="/api_version" />
+  <cornice:service xmi:id="_nqbU8IDREeKHruYTFsDpWg" base_Class="_dzjn4H-cEeKsFd1FhQZzfA" name="users" path="/users" />
   <cornice:delete xmi:id="_g01UQJVYEeKQe5VcPxsH7A" base_Operation="_kucWYH-cEeKsFd1FhQZzfA"/>
   <cornice:put xmi:id="_kPy_QJVYEeKQe5VcPxsH7A" base_Operation="_jXsl4H-cEeKsFd1FhQZzfA"/>
+  <pyegg:pyegg xmi:id="_H65mUJcFEeKfbKIWhJpdMA" base_Package="_Ha-RwH-bEeKsFd1FhQZzfA"/>
 </xmi:XMI>
