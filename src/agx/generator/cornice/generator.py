@@ -26,7 +26,7 @@ from agx.core import (
 #)
 
 #from node.ext.python.interfaces import IModule
-DEBUG = True
+DEBUG = False
 
 
 @handler('create_service', 'uml2fs', 'connectorgenerator', 'cornice_service')
@@ -79,6 +79,9 @@ def create_service(self, source, target):
 
     # prepare for later: get name of the service
     servicename = tgt.classname.lower()
+    # XXX TODO: the service name should be extracted from the model!
+    # there are tagged values 'name' and 'path'
+    #import pdb; pdb.set_trace()
 
     # # create an Attribute that will define a cornice service
     from node.ext.python import Attribute
@@ -86,9 +89,17 @@ def create_service(self, source, target):
     serviceattr.targets = [servicename]  # name of attribute: Classname.lower()
     serviceattr.value = 'Service(name="foo", path="bar")'
     # # TODO: extract 'name' and 'path' from model
+    #import pdb; pdb.set_trace()
     import uuid
     servicesmodule[str(uuid.uuid4())] = serviceattr
-    print "============= end handler create_service ================"
+
+    # use a token to 'remember' the file for writing later:
+    # the GET, PUT, POST, DELETE handlers need to know where to attach to
+    #from agx.core import token
+    #tok = token('schmoo', True, moo='Schubbi')
+
+    if DEBUG:  # pragma: no cover
+        print "============= end handler create_service ================"
 
 
 @handler('handle_GET', 'uml2fs', 'connectorgenerator', 'getscope')

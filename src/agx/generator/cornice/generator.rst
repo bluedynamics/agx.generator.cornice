@@ -44,8 +44,6 @@ Where should stuff be generated?
     >>> outdir = os.path.join(datadir, 'cornice.example')
     >>> controller = agx.core.Controller()
     >>> target = controller(modelpaths, outdir)
-    stub ...
-
     >>> target
     <Directory object '/.../agx.generator.cornice/src/agx/generator/cornice/testing/data/cornice.example' at ...>
 
@@ -97,8 +95,6 @@ Well, discard the rest, ok?
 Check for the existence of generated files and directories:
 
 data/cornice.example
-├── cornice               # well, where the heck does this folder come from?
-│   └── __init__.py       # well, where the heck does this __init__.py come from?
 ├── LICENSE.rst
 ├── MANIFEST.rst
 ├── README.rst
@@ -110,6 +106,7 @@ data/cornice.example
         │   └── services
         │       ├── apiversionservice.py
         │       ├── __init__.py
+        │       ├── services.py
         │       └── userservice.py
         └── __init__.py
 
@@ -141,15 +138,37 @@ data/cornice.example
     True
 
 There are two more files to expect, but only because I have not managed to program the handlers properly ;-)
-Actually, the generated services should go into one file services.py
 
     >>> os.path.exists(os.path.join(testpackage_path, 'src', 'cornice', 'example', 'services', 'apiversionservice.py'))
     True
     >>> os.path.exists(os.path.join(testpackage_path, 'src', 'cornice', 'example', 'services', 'userservice.py'))
     True
 
+Actually, the generated services should go into one file services.py
 
-Delete the generated directory:
+    >>> os.path.exists(os.path.join(testpackage_path, 'src', 'cornice', 'example', 'services', 'services.py'))
+    True
+
+    >>> servicesfile = os.path.join(testpackage_path, 'src', 'cornice', 'example', 'services', 'services.py')
+    >>> with open(servicesfile, 'r') as the_file:
+    ...     lines = the_file.readlines()
+
+
+The necessary import should be there...
+
+    >>> 'from cornice import Service\n' in lines
+    True
+
+and the generated services, too
+
+    >>> 'apiversionservice = Service(name="foo", path="bar")\n' in lines
+    True
+    >>> 'userservice = Service(name="foo", path="bar")' in lines
+    True
+
+
+
+Cleanup: Delete the generated directory:
 
     >>> if os.path.exists(os.path.join(datadir, 'cornice.example')):
     ...     shutil.rmtree(os.path.join(datadir, 'cornice.example'))
