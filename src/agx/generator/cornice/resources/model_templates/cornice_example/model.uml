@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1"
-	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	 xmlns:cornice="http:///schemas/cornice/_q7SN8H-uEeKuf9fd571QzQ/6"
-	 xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" 
-	 xmlns:pyegg="http:///schemas/pyegg/_FjJE0HtmEeKvC-Xbutnx2A/28" 
-	 xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML"
-	 xsi:schemaLocation="http:///schemas/cornice/_q7SN8H-uEeKuf9fd571QzQ/6 uml_profiles/cornice.profile.uml#_q7TcEH-uEeKuf9fd571QzQ
-			     http:///schemas/pyegg/_0LUxkH-QEeKuf9fd571QzQ/29 uml_profiles/pyegg.profile.uml#_0LX04H-QEeKuf9fd571QzQ
-			     http:///schemas/pyegg/_FjJE0HtmEeKvC-Xbutnx2A/28 uml_profiles/pyegg.profile.uml#_FjJr4HtmEeKvC-Xbutnx2A">
-  <uml:Model xmi:id="_Eam4EH-bEeKsFd1FhQZzfA" name="Model">
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cornice="http:///schemas/cornice/_q7SN8H-uEeKuf9fd571QzQ/6" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:pyegg="http:///schemas/pyegg/_FjJE0HtmEeKvC-Xbutnx2A/28" xmlns:pyramid="http:///schemas/pyramid/_wY5nEJdxEeKlf65yjIehdg/17" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/cornice/_q7SN8H-uEeKuf9fd571QzQ/6 uml_profiles/cornice.profile.uml#_q7TcEH-uEeKuf9fd571QzQ http:///schemas/pyegg/_FjJE0HtmEeKvC-Xbutnx2A/28 uml_profiles/pyegg.profile.uml#_FjJr4HtmEeKvC-Xbutnx2A http:///schemas/pyramid/_wY5nEJdxEeKlf65yjIehdg/17 uml_profiles/pyramid.profile.uml#_wY6OIJdxEeKlf65yjIehdg">
+  <uml:Model xmi:id="_Eam4EH-bEeKsFd1FhQZzfA" name="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ">
     <packageImport xmi:id="_Eam4EX-bEeKsFd1FhQZzfA">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
     </packageImport>
@@ -22,42 +14,10 @@
 there are different methods (GET, PUT, DELETE)</body>
       </ownedComment>
       <packagedElement xmi:type="uml:Class" xmi:id="_NfIzoH-bEeKsFd1FhQZzfA" name="ApiVersionService">
-        <ownedAttribute xmi:id="_aS-5kH-bEeKsFd1FhQZzfA" name="name" visibility="public">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cxHI4H-bEeKsFd1FhQZzfA" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cxJlIH-bEeKsFd1FhQZzfA" value="1"/>
-          <defaultValue xmi:type="uml:LiteralString" xmi:id="_cxPEsH-bEeKsFd1FhQZzfA">
-            <value xsi:nil="true"/>
-          </defaultValue>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="_dDhukH-bEeKsFd1FhQZzfA" name="path" visibility="public">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fhzH0H-bEeKsFd1FhQZzfA" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fh0V8H-bEeKsFd1FhQZzfA" value="1"/>
-          <defaultValue xmi:type="uml:LiteralString" xmi:id="_fh2yMH-bEeKsFd1FhQZzfA">
-            <value xsi:nil="true"/>
-          </defaultValue>
-        </ownedAttribute>
         <ownedOperation xmi:id="_VYQsAH-bEeKsFd1FhQZzfA" name="get_api_version"/>
         <ownedOperation xmi:id="_y5YAgH-bEeKsFd1FhQZzfA" name="my_fancy_validator"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_dzjn4H-cEeKsFd1FhQZzfA" name="UserService">
-        <ownedAttribute xmi:id="_pOc94H-cEeKsFd1FhQZzfA" name="name" visibility="public">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qrJlYH-cEeKsFd1FhQZzfA" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qrKzgH-cEeKsFd1FhQZzfA" value="1"/>
-          <defaultValue xmi:type="uml:LiteralString" xmi:id="_qrLakH-cEeKsFd1FhQZzfA">
-            <value xsi:nil="true"/>
-          </defaultValue>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="_rS0CUH-cEeKsFd1FhQZzfA" name="path" visibility="public">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_suadoH-cEeKsFd1FhQZzfA" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_subEsH-cEeKsFd1FhQZzfA" value="1"/>
-          <defaultValue xmi:type="uml:LiteralString" xmi:id="_sucS0H-cEeKsFd1FhQZzfA">
-            <value xsi:nil="true"/>
-          </defaultValue>
-        </ownedAttribute>
         <ownedOperation xmi:id="_h_SogH-cEeKsFd1FhQZzfA" name="get_users"/>
         <ownedOperation xmi:id="_jXsl4H-cEeKsFd1FhQZzfA" name="create_user"/>
         <ownedOperation xmi:id="_kucWYH-cEeKsFd1FhQZzfA" name="delete_user"/>
@@ -75,12 +35,22 @@ there are different methods (GET, PUT, DELETE)</body>
       </eAnnotations>
       <appliedProfile href="uml_profiles/pyegg.profile.uml#_HHBJsNqqEd6cif0axL0c4w"/>
     </profileApplication>
+    <profileApplication xmi:id="_Uy1pUKmhEeKwNodymnLVBA">
+      <eAnnotations xmi:id="_UzB2kKmhEeKwNodymnLVBA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="uml_profiles/pyramid.profile.uml#_wY6OIJdxEeKlf65yjIehdg"/>
+      </eAnnotations>
+      <appliedProfile href="uml_profiles/pyramid.profile.uml#_29Xa4FwvEeK2OIPViOliQA"/>
+    </profileApplication>
   </uml:Model>
   <cornice:get xmi:id="_giL2sH-vEeKuf9fd571QzQ" base_Operation="_VYQsAH-bEeKsFd1FhQZzfA"/>
   <cornice:get xmi:id="_jjBKcH-vEeKuf9fd571QzQ" base_Operation="_h_SogH-cEeKsFd1FhQZzfA"/>
-  <cornice:service xmi:id="_mTbFwIDREeKHruYTFsDpWg" base_Class="_NfIzoH-bEeKsFd1FhQZzfA" name="api_version" path="/api_version" />
-  <cornice:service xmi:id="_nqbU8IDREeKHruYTFsDpWg" base_Class="_dzjn4H-cEeKsFd1FhQZzfA" name="users" path="/users" />
+  <cornice:service xmi:id="_mTbFwIDREeKHruYTFsDpWg" base_Class="_NfIzoH-bEeKsFd1FhQZzfA" name="api_version" path="/api_version"/>
+  <cornice:service xmi:id="_nqbU8IDREeKHruYTFsDpWg" base_Class="_dzjn4H-cEeKsFd1FhQZzfA" name="users" path="/users"/>
   <cornice:delete xmi:id="_g01UQJVYEeKQe5VcPxsH7A" base_Operation="_kucWYH-cEeKsFd1FhQZzfA"/>
   <cornice:put xmi:id="_kPy_QJVYEeKQe5VcPxsH7A" base_Operation="_jXsl4H-cEeKsFd1FhQZzfA"/>
   <pyegg:pyegg xmi:id="_H65mUJcFEeKfbKIWhJpdMA" base_Package="_Ha-RwH-bEeKsFd1FhQZzfA"/>
+  <pyramid:buildout xmi:id="_bAzncKmhEeKwNodymnLVBA" base_Package="_Ha-RwH-bEeKsFd1FhQZzfA"/>
+  <pyramid:configuration xmi:id="_bCgQkKmhEeKwNodymnLVBA" base_Package="_Ha-RwH-bEeKsFd1FhQZzfA"/>
+  <pyramid:config_scan xmi:id="_bEEW0KmhEeKwNodymnLVBA" base_Package="_Ha-RwH-bEeKsFd1FhQZzfA"/>
+  <cornice:get xmi:id="_DrGjQKrIEeKwNodymnLVBA" base_Operation="_y5YAgH-bEeKsFd1FhQZzfA"/>
 </xmi:XMI>
