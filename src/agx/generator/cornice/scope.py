@@ -58,3 +58,10 @@ class DELETEScope(Scope):
         return 
 
 registerScope('deletescope', 'uml2fs', None, DELETEScope)
+
+class CorniceMethodScope(Scope):
+
+    def __call__(self, node):
+        return node.stereotype('cornice:get') is not None or node.stereotype('cornice:put') is not None or node.stereotype('cornice:delete') is not None or node.stereotype('cornice:post') is not None
+
+registerScope('cornice_method', 'uml2fs', [IOperation], CorniceMethodScope)
