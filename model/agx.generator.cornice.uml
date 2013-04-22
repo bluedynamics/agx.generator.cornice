@@ -50,12 +50,12 @@ Connect (with a dependency) to
         <packagedElement xmi:type="uml:Dependency" xmi:id="_cXYocJA9EeK2YcnhNl_MYA" name="" client="_GQHPUJA9EeK2YcnhNl_MYA" supplier="_WqdF4AsqEeKGfoivsLRX3g"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_eWs00JA9EeK2YcnhNl_MYA" name="" client="_LkYlUJA9EeK2YcnhNl_MYA" supplier="_WqdF4AsqEeKGfoivsLRX3g"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_i6An8JA9EeK2YcnhNl_MYA" name="" client="_N9yssJA9EeK2YcnhNl_MYA" supplier="_WqdF4AsqEeKGfoivsLRX3g"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_R_cWIKrJEeKADpoE5H_vQg" clientDependency="_YEbXYKrJEeKADpoE5H_vQg _ZEklwKrJEeKADpoE5H_vQg" name="reparent_cornice_methods"/>
-        <packagedElement xmi:type="uml:Dependency" xmi:id="_YEbXYKrJEeKADpoE5H_vQg" name="Dependency1" client="_R_cWIKrJEeKADpoE5H_vQg" supplier="_0J634KrIEeKADpoE5H_vQg"/>
-        <packagedElement xmi:type="uml:Dependency" xmi:id="_ZEklwKrJEeKADpoE5H_vQg" name="" client="_R_cWIKrJEeKADpoE5H_vQg" supplier="_EGx54AsrEeKGfoivsLRX3g"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_xse2YKsbEeKADpoE5H_vQg" clientDependency="_4DkUQKsbEeKADpoE5H_vQg _52PLwKsbEeKADpoE5H_vQg" name="reparent_cornice_functions"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_4DkUQKsbEeKADpoE5H_vQg" name="" client="_xse2YKsbEeKADpoE5H_vQg" supplier="_o-jOoHxEEeKxnpwB-_Mwzg"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_52PLwKsbEeKADpoE5H_vQg" name="" client="_xse2YKsbEeKADpoE5H_vQg" supplier="_WqdF4AsqEeKGfoivsLRX3g"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_PDRoEKtaEeKADpoE5H_vQg" clientDependency="_UPl78KtaEeKADpoE5H_vQg _VQNrcKtaEeKADpoE5H_vQg" name="purge_cornice_service_class"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_UPl78KtaEeKADpoE5H_vQg" name="" client="_PDRoEKtaEeKADpoE5H_vQg" supplier="_o-jOoHxEEeKxnpwB-_Mwzg"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_VQNrcKtaEeKADpoE5H_vQg" name="" client="_PDRoEKtaEeKADpoE5H_vQg" supplier="_EGx54AsrEeKGfoivsLRX3g"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_Srs_EAsvEeKbFrhzZvXz8w" name="scope">
         <ownedComment xmi:id="_1JkT8HrZEeK-RajENgwa_Q">
@@ -150,6 +150,6 @@ Replace this comment with a Class for the custom scope.</body>
     <stereotypes>cornice:post</stereotypes>
     <interfaces>IOperation</interfaces>
   </generator:class_scope>
-  <generator:handler xmi:id="_W5DJYKrJEeKADpoE5H_vQg" base_Class="_R_cWIKrJEeKADpoE5H_vQg"/>
   <generator:handler xmi:id="_20M-IKsbEeKADpoE5H_vQg" base_Class="_xse2YKsbEeKADpoE5H_vQg"/>
+  <generator:handler xmi:id="_TBysEKtaEeKADpoE5H_vQg" base_Class="_PDRoEKtaEeKADpoE5H_vQg"/>
 </xmi:XMI>

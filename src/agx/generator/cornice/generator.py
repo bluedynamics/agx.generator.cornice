@@ -18,6 +18,7 @@ from node.ext.uml.interfaces import (
 from agx.core.util import (
     read_target_node,
     dotted_path,
+    write_source_to_target_mapping,
 )
 
 #from agx.core.interfaces import IScope
@@ -178,18 +179,6 @@ def handle_DELETE(self, source, target):
     print "==== handler to create a DELETE method ===="
     print "===== end of handler for DELETE method ===="
 
-@handler('reparent_cornice_methods', 'uml2fs', 'semanticsgenerator',
-         'cornice_method')
-def reparent_cornice_methods(self, source, target):
-    print "reparent_cornice_methods", source.name
-    return 
-    #reparent it from the class to the module
-    func=read_target_node(source,target.target)
-    klass=func.parent
-    module=klass.parent
-    klass.detach(func.name)
-    module.insertlast(func)
-
 @handler('reparent_cornice_functions', 'uml2fs', 'connectorgenerator',
          'cornice_service')
 def reparent_cornice_functions(self, source, target):
@@ -199,7 +188,15 @@ def reparent_cornice_functions(self, source, target):
     for func in klass.functions():
         print '    reparenting ',func.functionname
         klass.detach(func.name)
-        module.insertlast(func)
+        funcs=module.functions(func.functionname)
+        if not funcs:
+            module.insertlast(func)
+        else:
+            #if already here, remap source/target
+            oldfunc=funcs[0]
+            sourcefunc=source.get(oldfunc.functionname, None)
+            if sourcefunc:
+                write_source_to_target_mapping(sourcefunc,func)
 
 @handler('handle_GET', 'uml2fs', 'connectorgenerator', 'getscope')
 def handle_GET(self, source, target):
@@ -224,3 +221,10 @@ def handle_GET(self, source, target):
     #servicemodule['decorator-1'] = dec
     #insertbefore(dec, tgt)  # TODO: decorator shall be planted on function
     print "========= end handler ========="
+
+@handler('purge_cornice_service_class', 'uml2fs', 'semanticsgenerator',
+         'cornice_service')
+def purge_cornice_service_class(self, source, target):
+    klass=read_target_node(source,target.target)
+    module=klass.parent
+    module.detach(klass.name)
