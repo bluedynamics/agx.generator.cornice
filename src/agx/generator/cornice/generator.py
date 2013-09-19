@@ -3,6 +3,7 @@ import os
 from agx.generator.pyegg.utils import (
     class_base_name,
     implicit_dotted_path,
+    egg_source,
 )
 from agx.core.interfaces import IScope
 from node.ext.uml.interfaces import (
@@ -66,6 +67,11 @@ def create_service(self, source, target):
     # create imports for cornice service
     imps = Imports(module)
     imps.set('cornice', 'Service')  # from cornice import Service
+    
+    #add the dep
+    deps=token('setup_dependencies', True, deps=[])
+    if not 'cornice' in deps.deps:
+        deps.deps.append('cornice')
     
     # prepare for later: get name of the service
     servicename = getservicename(source)
