@@ -87,6 +87,10 @@ def create_service(self, source, target):
     if not module.attributes(source.name):
         module.insertafter(serviceattr, klass)
 
+    # mark importme dependencies for pyramid
+    tok=token('pyramid_importmes',True,packages=[])
+    if 'cornice' not in tok.packages:
+        tok.packages.append('cornice')
 
 @handler('reparent_cornice_functions', 'uml2fs', 'connectorgenerator',
          'cornice_service')
