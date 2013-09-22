@@ -28,9 +28,12 @@ from agx.core import (
     handler,
     token,
 )
-from node.ext.python import Decorator
-from node.ext.python import Module
-from node.ext.python import Attribute
+from node.ext.python import (
+    Decorator,
+    Module,
+    Attribute,
+    Block,
+    )
 from node.ext.python.utils import Imports
 from node.ext.uml.utils import TaggedValues
 
@@ -40,7 +43,7 @@ DEBUG = True
 
 def getservicename(source):
     tgv = TaggedValues(source)
-    name = tgv.direct('name','cornice:service', source.name.lower())
+    name = tgv.direct('name', 'cornice:service', source.name.lower())
 
     return name
 
@@ -68,8 +71,8 @@ def create_service(self, source, target):
     imps = Imports(module)
     imps.set('cornice', 'Service')  # from cornice import Service
     
-    #add the dep
-    deps=token('setup_dependencies', True, deps=[])
+    # add the dep
+    deps = token('setup_dependencies', True, deps=[])
     if not 'cornice' in deps.deps:
         deps.deps.append('cornice')
     
@@ -88,7 +91,7 @@ def create_service(self, source, target):
         module.insertafter(serviceattr, klass)
 
     # mark importme dependencies for pyramid
-    tok=token('pyramid_importmes',True,packages=[])
+    tok = token('pyramid_importmes', True, packages=[])
     if 'cornice' not in tok.packages:
         tok.packages.append('cornice')
 
@@ -111,13 +114,24 @@ def reparent_cornice_functions(self, source, target):
             if sourcefunc:
                 tok = token(str(sourcefunc.uuid), True, target=oldfunc)
 
-def add_decorator(source, target, decname):
+def prepare_cornice_function(source, target, method):
     tok = token(str(source.uuid), True, target=None)
+    servicename = source.parent.name
+    decname = '%s.%s' % (servicename, method)
     if tok.target:
         func = tok.target
     else:
         func = read_target_node(source, target.target)
         
+    #func body
+    if not func.blocks():
+        func.insertfirst(Block("return {'%s':'%s'}" % (servicename,method)))
+
+    #request param
+    if 'request' not in func.args:
+        func.args.append('request')
+        
+    #decorator    
     dec = Decorator(decname)
     dec.is_callable = True
     if not func.decorators(decname):
@@ -125,27 +139,19 @@ def add_decorator(source, target, decname):
 
 @handler('handle_GET', 'uml2fs', 'connectorgenerator', 'getscope')
 def handle_GET(self, source, target):
-    servicename = source.parent.name
-    decname = servicename + ".get"
-    add_decorator(source, target, decname)
+    prepare_cornice_function(source, target, 'get')
 
 @handler('handle_PUT', 'uml2fs', 'connectorgenerator', 'putscope')
 def handle_PUT(self, source, target):
-    servicename = source.parent.name
-    decname = servicename + ".put"
-    add_decorator(source, target, decname)
+    prepare_cornice_function(source, target, 'put')
 
 @handler('handle_POST', 'uml2fs', 'connectorgenerator', 'postscope')
 def handle_POST(self, source, target):
-    servicename = source.parent.name
-    decname = servicename + ".post"
-    add_decorator(source, target, decname)
+    prepare_cornice_function(source, target, 'post')
 
 @handler('handle_DELETE', 'uml2fs', 'connectorgenerator', 'deletescope')
 def handle_DELETE(self, source, target):
-    servicename = source.parent.name
-    decname = servicename + ".delete"
-    add_decorator(source, target, decname)
+    prepare_cornice_function(source, target, 'delete')
 
 @handler('purge_cornice_service_class', 'uml2fs', 'semanticsgenerator',
          'cornice_service')
